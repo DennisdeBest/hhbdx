@@ -1,5 +1,7 @@
+<div id="times">
 <label for="startTime">Start time :</label>
-<select class="startTime">
+<select class="startTime" name="startTime[]">
+    <option value=""></option>
     <option value="1000">10:00</option>
     <option value="1030">10:30</option>
     <option value="1100">11:00</option>
@@ -40,7 +42,8 @@
 </select>
 
 <label for="endTime">End time :</label>
-<select class="endTime">
+<select class="endTime" name="entTime[]">
+    <option value=""></option>
     <option value="1000">10:00</option>
     <option value="1030">10:30</option>
     <option value="1100">11:00</option>
@@ -79,3 +82,16 @@
     <option value="0330">03:30</option>
     <option value="0400">04:00</option>
 </select>
+</div>
+<fieldset class="deals">
+    <legend>Promos</legend>
+    <label for="deal1">Deal : </label><input class="dealInput" type="text" name="deal1[]" id="deal1"/>
+    <label for="hhprice1">HH price : </label><input class="dealInput" type="text" size="1" name="hhprice1[]" id="hhprice1"/>€
+    <label for="price1">Price : </label><input class="dealInput" type="text" size="1" name="price1[]" id="price1"/>€ <br/>
+    <label for="deal2">Deal : </label><input class="dealInput" type="text" name="deal2[]" id="deal2"/>
+    <label for="hhprice2">HH price : </label><input class="dealInput" type="text" size="1" name="hhprice2[]" id="hhprice2"/>€
+    <label for="price2" >Price : </label><input class="dealInput" type="text" size="1" name="price2[]" id="price2"/>€ <br/>
+    <label for="deal3">Deal : </label><input class="dealInput" type="text" name="deal3[]" id="deal3"/>
+    <label for="hhprice3" >HH price : </label><input class="dealInput" type="text" size="1" name="hhprice3[]" id="hhprice3"/>€
+    <label for="price3" >Price : </label><input class="dealInput" type="text" size="1" name="price3[]" id="price3"/>€ <br/>
+</fieldset>

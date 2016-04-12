@@ -1,60 +1,23 @@
 $(function () {
     $(".day").hide();
 
+    var dayShort=['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+    var dayLong=['#monday', '#tuesday', '#wednesday', '#thursday', '#friday', '#saturday', '#sunday'];
     $(".check_day").change(function() {
-        if(($(this).val() === "mon"))
-        {
-            if(this.checked)
-                $("#monday").show();
-            else
-                $("#monday").hide();
-        }
+        for(i = 0; i <dayLong.length; i++){
 
-        else if(($(this).val() === "tue"))
-        {
-            if(this.checked)
-                $("#tuesday").show();
-            else
-                $("#tuesday").hide();
-        }
+                if($(this).val() === dayShort[i])
+                {
+                    if(this.checked)
+                        $(dayLong[i]).show();
+                    else{
+                        $(dayLong[i]).hide();
+                        $(dayLong[i]).find($('input')).val('');
+                        $(dayLong[i]).find($('select')).val('');
+                    }
 
-        else if(($(this).val() === "wed"))
-        {
-            if(this.checked)
-                $("#wednesday").show();
-            else
-                $("#wednesday").hide();
-        }
-        else if(($(this).val() === "thu"))
-        {
-            if(this.checked)
-                $("#thursday").show();
-            else
-                $("#thursday").hide();
-        }
-        else if(($(this).val() === "fri"))
-        {
-            if(this.checked)
-                $("#friday").show();
-            else
-                $("#friday").hide();
-        }
-        else if(($(this).val() === "sat"))
-        {
-            if(this.checked)
-                $("#saturday").show();
-            else
-                $("#saturday").hide();
-        }
-        else if(($(this).val() === "sun"))
-        {
-            if(this.checked)
-                $("#saturday").show();
-            else
-                $("#saturday").hide();
-        }
-
-        
+                }
+            }
         if($(this).val() === "all"){
             if (this.checked) {
                 $(".check_day").prop('checked', true);
@@ -65,15 +28,20 @@ $(function () {
                 $(".day").hide();
             }
         }
-
-        console.log($(this).val()+'changed');
-
     });
+
     
     $("#everyday").change(function () {
         var startValue = $(".startTime").val();
         var endValue = $(".endTime").val();
         $(".day .startTime").val(startValue);
         $(".day .endTime").val(endValue);
-    })
-})
+
+    });
+    $("#everyday").find($(".dealInput")).bind('input propertychange change', function(){
+        var id = $(this).attr('id');
+        var value = $(this).val();
+        var selector = ".day .deals #"+id+"";
+        $(selector).val(value);
+    });
+});
