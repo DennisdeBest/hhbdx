@@ -42,7 +42,7 @@
 </select>
 
 <label for="endTime">End time :</label>
-<select class="endTime" name="entTime[]">
+<select class="endTime" name="endTime[]">
     <option value=""></option>
     <option value="1000">10:00</option>
     <option value="1030">10:30</option>
