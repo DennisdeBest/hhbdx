@@ -10,17 +10,17 @@ Vagrant.configure("2") do |config|
 	config.vm.box_url = "https://atlas.hashicorp.com/ARTACK/boxes/debian-jessie"
 
 	config.vm.network "private_network", ip: "10.0.0.12"
-	config.vm.hostname = "swfp.local"
-	config.hostsupdater.aliases = ["sn.local"]
+	config.vm.hostname = "hhbdx.local"
+	config.hostsupdater.aliases = ["hhbdx.local"]
 
-	config.vm.synced_folder "project/", "/var/www/swfp.local", type: "nfs"
+	config.vm.synced_folder "project/", "/var/www/hhbdx.local", type: "nfs"
 	config.vm.provider "virtualbox" do |vb|
     	# Display the VirtualBox GUI when booting the machine
     	vb.gui = false
 
     	# Customize the amount of memory on the VM:
     	vb.memory = "4048"
-    	vb.name = "SWFP"
+    	vb.name = "HHBDX"
     	vb.customize ["modifyvm", :id, "--usb", "on"]
     	vb.customize ["modifyvm", :id, "--usbehci", "off"]
   	end
