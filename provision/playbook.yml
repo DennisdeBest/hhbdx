@@ -1,6 +1,6 @@
 ---
 
-- name: SWFP project
+- name: hhbdx project
   hosts: dev
   remote_user: vagrant
 
@@ -16,6 +16,6 @@
       apache_vhosts:
         # Additional optional properties: 'serveradmin, serveralias, extra_parameters'.
         - servername: "swfp.local"
-          documentroot: "/var/www/swfp.local/web"
+          documentroot: "/var/www/hhbx.local/web"
     - common
 ...
