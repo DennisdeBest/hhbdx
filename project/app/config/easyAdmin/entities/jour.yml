@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        Jour:
+            class: AppBundle\Entity\Jour
+            label: 'Jour'
+            form:
+                fields: ['jour']
+            list:
+                actions: ['delete', 'show', '-edit']

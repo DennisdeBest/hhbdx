@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        Heure:
+            class: AppBundle\Entity\Heure
+            label: 'Heure'
+            form:
+                fields: ['heure']
+            list:
+                actions: ['delete', 'show', '-edit']

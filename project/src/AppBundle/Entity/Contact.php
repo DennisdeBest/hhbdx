@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Contact
  *
- * @ORM\Table(name="swfp_contact")
+ * @ORM\Table(name="hhbdx_contact")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\ContactRepository")
  */
 class Contact
@@ -156,4 +156,3 @@ class Contact
         return $this->senddate;
     }
 }
-

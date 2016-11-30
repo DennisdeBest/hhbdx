@@ -11,7 +11,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
 /**
  * Image
  *
- * @ORM\Table(name="swfp_showcase_image")
+ * @ORM\Table(name="hhbdx_showcase_image")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\ImageRepository")
  * @Vich\Uploadable
  */
@@ -98,5 +98,29 @@ class Image
     public function getImage()
     {
         return $this->image;
+    }
+
+    /**
+     * Set updatedAt
+     *
+     * @param \DateTime $updatedAt
+     *
+     * @return Image
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+
+        return $this;
+    }
+
+    /**
+     * Get updatedAt
+     *
+     * @return \DateTime
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
     }
 }

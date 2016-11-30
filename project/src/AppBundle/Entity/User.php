@@ -9,7 +9,7 @@ use FOS\UserBundle\Model\User as BaseUser;
 /**
  * User
  *
- * @ORM\Table(name="swfp_user")
+ * @ORM\Table(name="hhbdx_user")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\UserRepository")
  *
  */

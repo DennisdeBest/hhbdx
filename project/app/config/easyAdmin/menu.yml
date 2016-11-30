@@ -1,7 +1,12 @@
 easy_admin:
-    site_name: 'SouthWestFrancePools'
+    site_name: 'HHBDX'
     design:
         menu:
             - { entity: 'User', icon: 'users' }
-            - { entity: 'Showcase', icon: 'file-image-o' }
             - { entity: 'Contact', icon: 'envelope-o' }
+            - { entity: 'Bar', icon: 'envelope-o' }
+            - { entity: 'Boisson', icon: 'envelope-o' }
+            - { entity: 'Jour', icon: 'envelope-o' }
+            - { entity: 'Heure', icon: 'envelope-o' }
+            - { entity: 'Creneauhh', icon: 'envelope-o' }
+            - { entity: 'TypeBar', icon: 'envelope-o' }

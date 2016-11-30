@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        TypeBar:
+            class: AppBundle\Entity\TypeBar
+            label: 'TypeBar'
+            form:
+                fields: ['nom']
+            list:
+                actions: ['delete', 'show', '-edit']

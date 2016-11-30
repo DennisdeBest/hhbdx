@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        Boisson:
+            class: AppBundle\Entity\Boisson
+            label: 'Boisson'
+            form:
+                fields: ['prixNormal', 'prixHh']
+            list:
+                actions: ['delete', 'show', '-edit']

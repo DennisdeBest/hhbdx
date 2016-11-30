@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        Bar:
+            class: AppBundle\Entity\Bar
+            label: 'Bar'
+            form:
+                fields: ['nom', 'adresse', 'photo1', 'photo2', 'description', 'type', 'crenauhh', 'boissons']
+            list:
+                actions: ['delete', 'show', '-edit']
