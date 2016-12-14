@@ -62,4 +62,9 @@ class Heure
     {
         return $this->heure;
     }
+
+    public function __toString()
+    {
+        return $this->heure;
+    }
 }

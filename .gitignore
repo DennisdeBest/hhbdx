@@ -49,4 +49,4 @@
 /.idea/
 /.idea/*
 .idea/
-.vagrant/
+.vagrant/*

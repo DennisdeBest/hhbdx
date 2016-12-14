@@ -62,4 +62,9 @@ class Jour
     {
         return $this->jour;
     }
+
+    public function __toString()
+    {
+        return $this->jour;
+    }
 }

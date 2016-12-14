@@ -3,13 +3,15 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * Bar
  *
  * @ORM\Table(name="hhbdx_bar")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\BarRepository")
+ * @Vich\Uploadable
  */
 class Bar
 {
@@ -48,6 +50,21 @@ class Bar
      *
      * @ORM\Column(name="description", type="string", length=255)
      */
+
+    /**
+     * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
+     * @var File
+     */
+    private $imageFile;
+
+    /**
+     * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
+     * @var File
+     */
+    private $imageFile2;
+
+    private $updatedAt;
+
     private $description;
 
     /**
@@ -58,9 +75,8 @@ class Bar
     private $nom;
 
     /**
-     * @var TypeBar
      *
-     * @ORM\ManyToOne(targetEntity="TypeBar")
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\TypeBar")
      */
     private $type;
 
@@ -125,6 +141,42 @@ class Bar
         $this->photo1 = $photo1;
 
         return $this;
+    }
+
+    public function setImageFile(File $photo1 = null)
+    {
+        $this->imageFile = $photo1;
+
+        // VERY IMPORTANT:
+        // It is required that at least one field changes if you are using Doctrine,
+        // otherwise the event listeners won't be called and the file is lost
+        if ($photo1) {
+            // if 'updatedAt' is not defined in your entity, use another property
+            $this->updatedAt = new \DateTime('now');
+        }
+    }
+
+    public function setImageFile2(File $photo2 = null)
+    {
+        $this->imageFile = $photo2;
+
+        // VERY IMPORTANT:
+        // It is required that at least one field changes if you are using Doctrine,
+        // otherwise the event listeners won't be called and the file is lost
+        if ($photo2) {
+            // if 'updatedAt' is not defined in your entity, use another property
+            $this->updatedAt = new \DateTime('now');
+        }
+    }
+
+    public function getImageFile()
+    {
+        return $this->imageFile;
+    }
+
+    public function getImageFile2()
+    {
+        return $this->imageFile2;
     }
 
     /**

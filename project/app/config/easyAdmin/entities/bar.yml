@@ -4,6 +4,14 @@ easy_admin:
             class: AppBundle\Entity\Bar
             label: 'Bar'
             form:
-                fields: ['nom', 'adresse', 'photo1', 'photo2', 'description', 'type', 'crenauhh', 'boissons']
+                fields:
+                    - nom
+                    - adresse
+                    - description
+                    - { property: 'type', type: 'entity', type_options: { class: 'AppBundle:TypeBar'} }
+                    - { property: 'creneauhh' , type: 'AppBundle\Form\CreneauhhType'}
+                    - boissons
+                    - { property: 'imageFile', type: 'file'}
+                    - { property: 'imageFile2', type: 'file'}
             list:
                 actions: ['delete', 'show', '-edit']
