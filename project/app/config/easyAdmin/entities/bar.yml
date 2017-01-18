@@ -8,9 +8,9 @@ easy_admin:
                     - nom
                     - adresse
                     - description
-                    - { property: 'type', type: 'collection', type_options: { class: 'AppBundle:TypeBar'} }
+                    - { property: 'type', type: 'entity', type_options: { class: 'AppBundle:TypeBar'} }
                     - { property: 'creneauhh' , type: 'AppBundle\Form\CreneauhhType'}
-                    - { property: 'boisson', type: 'collection', type_options: { class: 'AppBundle:Boisson'}}
+                    - { property: 'boisson', type: 'collection', type_options: { entry_type: 'AppBundle:Boisson'}}
                     - { property: 'imageFile', type: 'file'}
                     - { property: 'imageFile2', type: 'file'}
             list:
