@@ -77,7 +77,8 @@ class Bar
 
     /**
      * @var Boisson[]ArrayCollection
-     * @ORM\ManyToMany(targetEntity="Boisson", nullable=true)
+     * @ORM\Column(nullable=true)
+     * @ORM\ManyToMany(targetEntity="Boisson")
      */
     private $boissons;
 
