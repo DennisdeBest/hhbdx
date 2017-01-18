@@ -77,15 +77,14 @@ class Bar
 
     /**
      * @var Boisson[]ArrayCollection
-     * @ORM\Column(nullable=true)
-     * @ORM\ManyToMany(targetEntity="Boisson")
+     * @ORM\ManyToMany(targetEntity="Boisson", nullable=true)
      */
     private $boissons;
 
     /**
      * @var Creneauhh
      * @ORM\Column(nullable=true)
-     * @ @ORM\ManyToOne(targetEntity="Creneauhh", cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="Creneauhh", cascade={"persist"})
      */
     private $creneauhh;
 
