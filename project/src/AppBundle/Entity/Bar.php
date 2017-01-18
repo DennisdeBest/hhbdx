@@ -34,22 +34,16 @@ class Bar
     /**
      * @var string
      *
-     * @ORM\Column(name="photo1", type="string", length=255)
+     * @ORM\Column(name="photo1", type="string", length=255, nullable=true)
      */
     private $photo1;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="photo2", type="string", length=255)
+     * @ORM\Column(name="photo2", type="string", length=255, nullable=true)
      */
     private $photo2;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description", type="string", length=255)
-     */
 
     /**
      * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
@@ -77,19 +71,20 @@ class Bar
     /**
      *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\TypeBar")
+     * @ORM\Column(nullable=true)
      */
     private $type;
 
     /**
      * @var Boisson[]ArrayCollection
-     *
+     * @ORM\Column(nullable=true)
      * @ORM\ManyToMany(targetEntity="Boisson")
      */
     private $boissons;
 
     /**
      * @var Creneauhh
-     *
+     * @ORM\Column(nullable=true)
      * @ @ORM\ManyToOne(targetEntity="Creneauhh", cascade={"persist"})
      */
     private $creneauhh;
