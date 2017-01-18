@@ -90,7 +90,7 @@ class Bar
     /**
      * @var Creneauhh
      *
-     * @ @ORM\ManyToOne(targetEntity="Creneauhh")
+     * @ @ORM\ManyToOne(targetEntity="Creneauhh", cascade={"persist"})
      */
     private $creneauhh;
 

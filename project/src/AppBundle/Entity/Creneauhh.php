@@ -24,21 +24,21 @@ class Creneauhh
     /**
      * @var Jour
      *
-     * @ORM\ManyToOne(targetEntity="Jour")
+     * @ORM\ManyToOne(targetEntity="Jour", cascade={"persist"})
      */
     private $jour;
 
     /**
      * @var Heure
      *
-     * @ORM\ManyToOne(targetEntity="Heure")
+     * @ORM\ManyToOne(targetEntity="Heure", cascade={"persist"})
      */
     private $heureDebut;
 
     /**
      * @var Heure
      *
-     * @ORM\ManyToOne(targetEntity="Heure")
+     * @ORM\ManyToOne(targetEntity="Heure", cascade={"persist"})
      */
     private $heureFin;
 
