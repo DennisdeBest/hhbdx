@@ -1,0 +1,1792 @@
+# Logfile created on 2016-12-14 10:23:42 +0100 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:23:42 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c275cd7e] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [c275cd7e] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /tmp/dentist-data )
+  INFO [c275cd7e] Finished in 2.125 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [7ab5c816] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [7ab5c816] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh )
+  INFO [7ab5c816] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [4fefaab2] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [4fefaab2] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [4fefaab2] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [4fefaab2] Finished in 1.946 seconds with exit status 0 (successful).
+  INFO [4e021800] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [4e021800] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases )
+  INFO [4e021800] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [e181f0f4] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [e181f0f4] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var )
+  INFO [e181f0f4] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [91114b81] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [91114b81] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config )
+  INFO [91114b81] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [710235c8] Running [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [710235c8] Command: [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [710235c8] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [55af2c9f] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [55af2c9f] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [55af2c9f] Finished in 0.060 seconds with exit status 0 (successful).
+ DEBUG [329df097] Running /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null as exploit@dev.dentist-data.fr
+ DEBUG [329df097] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null )
+ DEBUG [329df097] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c
+ DEBUG [329df097] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:24:26 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e98bbdc3] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [e98bbdc3] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /tmp/dentist-data )
+  INFO [e98bbdc3] Finished in 2.005 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [6ead562a] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [6ead562a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh )
+  INFO [6ead562a] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [6424048a] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [6424048a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [6424048a] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [6424048a] Finished in 1.786 seconds with exit status 0 (successful).
+  INFO [d3b7c355] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [d3b7c355] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases )
+  INFO [d3b7c355] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [0089d5d5] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [0089d5d5] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var )
+  INFO [0089d5d5] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [c8b8e72a] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [c8b8e72a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config )
+  INFO [c8b8e72a] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [e9bef1e7] Running [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [e9bef1e7] Command: [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [e9bef1e7] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [0825f953] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [0825f953] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [0825f953] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [5bba6d72] Running /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null as exploit@dev.dentist-data.fr
+ DEBUG [5bba6d72] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" ; /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null )
+ DEBUG [5bba6d72] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c
+ DEBUG [5bba6d72] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:25:28 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5b5d37e1] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [5b5d37e1] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/dentist-data )
+  INFO [5b5d37e1] Finished in 1.391 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [5382127e] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [5382127e] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh )
+  INFO [5382127e] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [e6e052e0] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [e6e052e0] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [e6e052e0] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [e6e052e0] Finished in 1.668 seconds with exit status 0 (successful).
+  INFO [6b1d5c85] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [6b1d5c85] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases )
+  INFO [6b1d5c85] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [6dd9a90b] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [6dd9a90b] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var )
+  INFO [6dd9a90b] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [8b3112a4] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [8b3112a4] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/project/app/config )
+  INFO [8b3112a4] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [afabe75b] Running [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [afabe75b] Command: [ -f /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [afabe75b] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [7338bc53] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [7338bc53] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [7338bc53] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [34c6cd2c] Running /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null as exploit@dev.dentist-data.fr
+ DEBUG [34c6cd2c] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env cat /var/www/dev.dentist-data.fr/current/REVISION 2>/dev/null )
+ DEBUG [34c6cd2c] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c
+ DEBUG [34c6cd2c] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [7c004e36] Running if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [7c004e36] Command: if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi
+ DEBUG [7c004e36] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [a1452f86] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [a1452f86] Command: cd /var/www/dev.dentist-data.fr/shared && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [a1452f86] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [1f009e5a] Running [ -f /var/www/dev.dentist-data.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [1f009e5a] Command: [ -f /var/www/dev.dentist-data.fr/repo/HEAD ]
+ DEBUG [1f009e5a] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/dev.dentist-data.fr/repo
+ DEBUG [b6924607] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [b6924607] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [b6924607] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [07384a08] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [07384a08] Command: cd /var/www/dev.dentist-data.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [07384a08] 	Récupération de origin
+  INFO [07384a08] Finished in 1.762 seconds with exit status 0 (successful).
+ DEBUG [0f7a4d62] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [0f7a4d62] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [0f7a4d62] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [e243a98c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534 as exploit@dev.dentist-data.fr
+ DEBUG [e243a98c] Command: cd /var/www/dev.dentist-data.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534 )
+  INFO [e243a98c] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [44b28711] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161214092534 as exploit@dev.dentist-data.fr
+ DEBUG [44b28711] Command: cd /var/www/dev.dentist-data.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161214092534 )
+  INFO [44b28711] Finished in 0.188 seconds with exit status 0 (successful).
+ DEBUG [3daa5cce] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [3daa5cce] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [3daa5cce] Finished in 0.332 seconds with exit status 0 (successful).
+ DEBUG [7d96404a] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [7d96404a] Command: cd /var/www/dev.dentist-data.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [7d96404a] 	8c00d316535c49f4e1ab7cf5b42585164928ea2c
+ DEBUG [7d96404a] Finished in 0.512 seconds with exit status 0 (successful).
+ DEBUG [7cf837aa] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [7cf837aa] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [7cf837aa] Finished in 0.289 seconds with exit status 0 (successful).
+  INFO [af98ffe7] Running /usr/bin/env echo "8c00d316535c49f4e1ab7cf5b42585164928ea2c" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [af98ffe7] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "8c00d316535c49f4e1ab7cf5b42585164928ea2c" >> REVISION )
+  INFO [af98ffe7] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [9f9f3691] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [9f9f3691] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config )
+  INFO [9f9f3691] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [b11a8da3] Running [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [b11a8da3] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml ]
+ DEBUG [b11a8da3] Finished in 0.092 seconds with exit status 1 (failed).
+ DEBUG [5a2fa2dc] Running [ -f /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [5a2fa2dc] Command: [ -f /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml ]
+ DEBUG [5a2fa2dc] Finished in 0.090 seconds with exit status 1 (failed).
+  INFO [1c592a70] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [1c592a70] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/project/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161214092534/project/app/config/parameters.yml )
+  INFO [1c592a70] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [2c9ac16d] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534/app /var/www/dev.dentist-data.fr/releases/20161214092534/web /var/www/dev.dentist-data.fr/releases/20161214092534 as exploit@dev.dentist-data.fr
+ DEBUG [2c9ac16d] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161214092534/app /var/www/dev.dentist-data.fr/releases/20161214092534/web /var/www/dev.dentist-data.fr/releases/20161214092534 )
+  INFO [2c9ac16d] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [b6c5715d] Running [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [b6c5715d] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs ]
+ DEBUG [b6c5715d] Finished in 0.070 seconds with exit status 1 (failed).
+ DEBUG [69d135e1] Running [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [69d135e1] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs ]
+ DEBUG [69d135e1] Finished in 0.054 seconds with exit status 1 (failed).
+  INFO [51f1b939] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [51f1b939] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161214092534/app/logs )
+  INFO [51f1b939] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [8e487c21] Running [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [8e487c21] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads ]
+ DEBUG [8e487c21] Finished in 0.070 seconds with exit status 1 (failed).
+ DEBUG [e29b7cca] Running [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [e29b7cca] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads ]
+ DEBUG [e29b7cca] Finished in 0.054 seconds with exit status 1 (failed).
+  INFO [7be61740] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [7be61740] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161214092534/web/uploads )
+  INFO [7be61740] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [3f4d6397] Running [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/var ] as exploit@dev.dentist-data.fr
+ DEBUG [3f4d6397] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161214092534/var ]
+ DEBUG [3f4d6397] Finished in 0.302 seconds with exit status 1 (failed).
+ DEBUG [a35ad025] Running [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/var ] as exploit@dev.dentist-data.fr
+ DEBUG [a35ad025] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/var ]
+ DEBUG [a35ad025] Finished in 0.255 seconds with exit status 1 (failed).
+  INFO [aa0fbac0] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161214092534/var as exploit@dev.dentist-data.fr
+ DEBUG [aa0fbac0] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161214092534/var )
+  INFO [aa0fbac0] Finished in 0.250 seconds with exit status 0 (successful).
+ DEBUG [a8d14fa9] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a8d14fa9] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [a8d14fa9] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [de574079] Running [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [de574079] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161214092534/app/cache ]
+ DEBUG [de574079] Finished in 0.075 seconds with exit status 1 (failed).
+  INFO [1036e9d9] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [1036e9d9] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [1036e9d9] 	mkdir: création du répertoire « app/cache »
+  INFO [1036e9d9] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [90ebeddb] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [90ebeddb] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [90ebeddb] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [269d0638] Running /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.dentist-data.fr/releases/20161214092534/project as exploit@dev.dentist-data.fr
+ DEBUG [269d0638] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.dentist-data.fr/releases/20161214092534/project )
+ DEBUG [269d0638] 	Loading composer repositories with package information
+ DEBUG [269d0638] 	Installing dependencies (including require-dev) from lock file
+ DEBUG [269d0638] 	  - Installing ocramius/package-versions (1.1.1)
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/lexer (v1.0.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/annotations (v1.2.7)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/collections (v1.3.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing twig/twig (v1.25.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/polyfill-util (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing paragonie/random_compat (v2.0.2)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/polyfill-php70 (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/polyfill-php56 (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+  - Installing symfony/polyfill-mbstring (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/symfony (v3.1.4)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/polyfill-intl-icu (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing psr/log (1.0.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing psr/cache (1.0.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/inflector (v1.1.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/cache (v1.6.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/common (v2.6.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/doctrine-cache-bundle (1.3.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing zendframework/zend-eventmanager (3.0.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing zendframework/zend-code (3.0.4)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing ocramius/proxy-manager (2.0.3)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/dbal (v2.5.5)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/migrations (1.4.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing jdorn/sql-formatter (v1.2.17)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/doctrine-bundle (1.6.4)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/doctrine-migrations-bundle (v1.2.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/instantiator (1.0.5)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing egeloen/json-builder (2.0.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing egeloen/ckeditor-bundle (4.0.5)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing friendsofsymfony/user-bundle (dev-master 9f86fe2)
+ DEBUG [269d0638] 	    Cloning 9f86fe2d69df11159fca9ec44b529cb1df5e14aa
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing incenteev/composer-parameter-handler (v2.1.2)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing twig/extensions (v1.4.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing sensio/framework-extra-bundle (v3.0.16)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing sensiolabs/security-checker (v3.0.2)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing sensio/distribution-bundle (v5.0.12)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing pagerfanta/pagerfanta (v1.0.3)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing doctrine/orm (v2.5.5)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing javiereguiluz/easyadmin-bundle (v1.15.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing jms/i18n-routing-bundle (dev-master 1c73115)
+ DEBUG [269d0638] 	    Cloning 1c7311596abea9356c9bc540346d1e4738288d79
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing nikic/php-parser (v2.1.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing jms/translation-bundle (1.3.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing kriswallsmith/assetic (v1.3.2)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/assetic-bundle (v2.8.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing monolog/monolog (1.21.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/monolog-bundle (2.11.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/polyfill-apcu (v1.2.0)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing swiftmailer/swiftmailer (v5.4.3)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/swiftmailer-bundle (v2.3.11)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing jms/metadata (1.5.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing vich/uploader-bundle (1.3.1)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing sensio/generator-bundle (v3.0.8)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	  - Installing symfony/phpunit-bridge (v3.1.4)
+ DEBUG [269d0638] 	    Loading from cache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/polyfill-intl-icu suggests installing ext-intl (For best performance)
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+zendframework/zend-eventmanager suggests installing container-interop/container-interop (^1.1.0, to use the lazy listeners feature)
+zendframework/zend-eventmanager suggests installing zendframework/zend-stdlib (^2.7.3 || ^3.0, to use the FilterChain feature)
+zendframework/zend-code suggests installing zendframework/zend-stdlib (Zend\Stdlib component)
+ocramius/proxy-manager suggests installing ocramius/generated-hydrator (To have very fast object to array to object conversion for ghost objects)
+ocramius/proxy-manager suggests installing zendframework/zend-json (To have the JsonRpc adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-soap (To have the Soap adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-xmlrpc (To have the XmlRpc adapter (Remote Object feature))
+egeloen/ckeditor-bundle suggests installing egeloen/form-extra-bundle (Allows to load CKEditor asynchronously)
+friendsofsymfony/user-bundle suggests installing willdurand/propel-typehintable-behavior (Needed when using the propel implementation)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+pagerfanta/pagerfanta suggests installing doctrine/mongodb-odm (To use the DoctrineODMMongoDBAdapter.)
+pagerfanta/pagerfanta suggests installing doctrine/phpcr-odm (To use the DoctrineODMPhpcrAdapter. >= 1.1.0)
+pagerfanta/pagerfanta suggests installing mandango/mandango (To use the MandangoAdapter.)
+pagerfanta/pagerfanta suggests installing propel/propel1 (To use the PropelAdapter)
+pagerfanta/pagerfanta suggests installing solarium/solarium (To use the SolariumAdapter.)
+kriswallsmith/assetic suggests installing leafo/lessphp (Assetic provides the integration with the lessphp LESS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp (Assetic provides the integration with the scssphp SCSS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp-compass (Assetic provides the integration with the SCSS compass plugin)
+kriswallsmith/assetic suggests installing patchwork/jsqueeze (Assetic provides the integration with the JSqueeze JavaScript compressor)
+kriswallsmith/assetic suggests installing ptachoire/cssembed (Assetic provides the integration with phpcssembed to embed data uris)
+symfony/assetic-bundle suggests installing kriswallsmith/spork (to be able to dump assets in parallel)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+vich/uploader-bundle suggests installing doctrine/mongodb-odm-bundle (*)
+vich/uploader-bundle suggests installing doctrine/phpcr-odm (~1.0)
+vich/uploader-bundle suggests installing knplabs/knp-gaufrette-bundle (~0.3)
+vich/uploader-bundle suggests installing willdurand/propel-eventdispatcher-bundle (~1.2)
+Generating optimized autoload files
+ DEBUG [269d0638] 	ocramius/package-versions:  Generating version class...
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	ocramius/package-versions: ...done generating version class
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	Updating the "app/config/parameters.yml" file
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	 // Clearing the cache for the dev environment with debug true                                                          
+
+ DEBUG [269d0638] 	 [OK] Cache for the "dev" environment (debug=true) was successfully cleared.                                            
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	
+ DEBUG [269d0638] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installAssets
+ DEBUG [269d0638] 	
+ Trying to install assets as relative symbolic links.
+
+ DEBUG [269d0638] 	 --- ---------------------- ------------------ 
+      Bundle                 Method / Error    
+ --- ---------------------- ------------------ 
+  ✔   FrameworkBundle        relative symlink  
+  ✔   AppBundle              relative symlink  
+  ✔   EasyAdminBundle        relative symlink  
+  ✔   IvoryCKEditorBundle    relative symlink  
+  ✔   JMSTranslationBundle   relative symlink  
+ --- ---------------------- ------------------ 
+
+ [OK] All assets were successfully installed.                                                                           
+
+ DEBUG [269d0638] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installRequirementsFile
+ DEBUG [269d0638] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::prepareDeploymentTarget
+  INFO [269d0638] Finished in 20.500 seconds with exit status 0 (successful).
+ DEBUG [7f854d95] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [7f854d95] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [7f854d95] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [1a673e34] Running /opt/php-7.0.1/bin/php project/bin/console cache:warmup  --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [1a673e34] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console cache:warmup  --no-debug )
+ DEBUG [1a673e34] 	
+ DEBUG [1a673e34] 	 // Warming up the cache for the dev environment with debug false                                                       
+
+ DEBUG [1a673e34] 	 [OK] Cache for the "dev" environment (debug=false) was successfully warmed.                                            
+ DEBUG [1a673e34] 	
+ DEBUG [1a673e34] 	
+  INFO [1a673e34] Finished in 15.048 seconds with exit status 0 (successful).
+ DEBUG [9e014d37] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534/project/web; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534/project/web'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [9e014d37] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534/project/web; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534/project/web'" 1>&2; false; fi
+ DEBUG [9e014d37] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [e129243e] Running /usr/bin/env rm -f  as exploit@dev.dentist-data.fr
+ DEBUG [e129243e] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534/project/web && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env rm -f  )
+  INFO [e129243e] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [83ea9961] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [83ea9961] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [83ea9961] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [e0ed2a8a] Running /opt/php-7.0.1/bin/php project/bin/console assets:install web --symlink --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [e0ed2a8a] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console assets:install web --symlink --no-debug )
+ DEBUG [e0ed2a8a] 	
+ DEBUG [e0ed2a8a] 	 Trying to install assets as absolute symbolic links.
+ DEBUG [e0ed2a8a] 	
+ DEBUG [e0ed2a8a] 	 --- ---------------------- ------------------ 
+ DEBUG [e0ed2a8a] 	      Bundle                 Method / Error    
+ DEBUG [e0ed2a8a] 	 --- ---------------------- ------------------ 
+ DEBUG [e0ed2a8a] 	  ✔   FrameworkBundle        absolute symlink  
+ DEBUG [e0ed2a8a] 	  ✔   AppBundle              absolute symlink  
+ DEBUG [e0ed2a8a] 	  ✔   EasyAdminBundle        absolute symlink  
+ DEBUG [e0ed2a8a] 	  ✔   IvoryCKEditorBundle    absolute symlink  
+ DEBUG [e0ed2a8a] 	  ✔   JMSTranslationBundle   absolute symlink  
+ --- ---------------------- ------------------ 
+ DEBUG [e0ed2a8a] 	
+ DEBUG [e0ed2a8a] 	 [OK] All assets were successfully installed.                                                                           
+ DEBUG [e0ed2a8a] 	
+  INFO [e0ed2a8a] Finished in 0.385 seconds with exit status 0 (successful).
+ DEBUG [93b1f9e4] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [93b1f9e4] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161214092534; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161214092534'" 1>&2; false; fi
+ DEBUG [93b1f9e4] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [25b4cad8] Running /opt/php-7.0.1/bin/php project/bin/console doctrine:migrations:migrate  --no-interaction; true  --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [25b4cad8] Command: cd /var/www/dev.dentist-data.fr/releases/20161214092534 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console doctrine:migrations:migrate  --no-interaction; true  --no-debug )
+ DEBUG [25b4cad8] 	                                                              
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	                    Application Migrations                    
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	                                                              
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	Migrating up to 0 from 0
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	
+ DEBUG [25b4cad8] 	                                                 
+  [Doctrine\DBAL\Migrations\MigrationException]  
+  Could not find any migrations to execute.      
+                                                 
+
+doctrine:migrations:migrate [--write-sql] [--dry-run] [--query-time] [--allow-no-migration] [--configuration [CONFIGURATION]] [--db-configuration [DB-CONFIGURATION]] [--db DB] [--em EM] [--shard SHARD] [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [-e|--env ENV] [--no-debug] [--] <command> [<version>]
+
+  INFO [25b4cad8] Finished in 0.507 seconds with exit status 0 (successful).
+  INFO [9983a7bf] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/releases/20161214092534 /var/www/dev.dentist-data.fr/releases/current as exploit@dev.dentist-data.fr
+ DEBUG [9983a7bf] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/releases/20161214092534 /var/www/dev.dentist-data.fr/releases/current )
+  INFO [9983a7bf] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [8f1530d8] Running /usr/bin/env mv /var/www/dev.dentist-data.fr/releases/current /var/www/dev.dentist-data.fr as exploit@dev.dentist-data.fr
+ DEBUG [8f1530d8] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mv /var/www/dev.dentist-data.fr/releases/current /var/www/dev.dentist-data.fr )
+  INFO [8f1530d8] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [0d251fd6] Running /usr/bin/env ls -x /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [0d251fd6] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ls -x /var/www/dev.dentist-data.fr/releases )
+ DEBUG [0d251fd6] 	20161212163425	20161212163627	20161212164023	20161212164614	20161212164840
+20161214092534
+ DEBUG [0d251fd6] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on dev.dentist-data.fr
+  INFO [1540175c] Running /usr/bin/env rm -rf /var/www/dev.dentist-data.fr/releases/20161212163425 as exploit@dev.dentist-data.fr
+ DEBUG [1540175c] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env rm -rf /var/www/dev.dentist-data.fr/releases/20161212163425 )
+  INFO [1540175c] Finished in 0.983 seconds with exit status 0 (successful).
+ DEBUG [70323dd4] Running if test ! -d /var/www/dev.dentist-data.fr/releases; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [70323dd4] Command: if test ! -d /var/www/dev.dentist-data.fr/releases; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases'" 1>&2; false; fi
+ DEBUG [70323dd4] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [975fa371] Running /usr/bin/env echo "Branch develop (at 8c00d316535c49f4e1ab7cf5b42585164928ea2c) deployed as release 20161214092534 by dennisdebest" >> /var/www/dev.dentist-data.fr/revisions.log as exploit@dev.dentist-data.fr
+ DEBUG [975fa371] Command: cd /var/www/dev.dentist-data.fr/releases && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "Branch develop (at 8c00d316535c49f4e1ab7cf5b42585164928ea2c) deployed as release 20161214092534 by dennisdebest" >> /var/www/dev.dentist-data.fr/revisions.log )
+  INFO [975fa371] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:35:09 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [84c0ec26] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.dentist-data.fr
+ DEBUG [84c0ec26] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO [84c0ec26] Finished in 1.443 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 100.0%
+  INFO [34f9b885] Running /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [34f9b885] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh )
+  INFO [34f9b885] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [126f310f] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git as exploit@dev.dentist-data.fr
+ DEBUG [126f310f] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git )
+ DEBUG [126f310f] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4	refs/heads/develop
+f66a53d61b231e6e9572e573d504e430aa127585	refs/heads/feature/quentin
+32c1efe5d559893ecf9d09f571aa514bc525ce06	refs/heads/master
+  INFO [126f310f] Finished in 1.672 seconds with exit status 0 (successful).
+  INFO [6ffba066] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [6ffba066] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases )
+ DEBUG [6ffba066] 	mkdir: 
+ DEBUG [6ffba066] 	impossible de créer le répertoire « /var/www/dev.hhbdx.fr/shared »
+ DEBUG [6ffba066] 	: Permission non accordée
+ DEBUG [6ffba066] 	
+ DEBUG [6ffba066] 	mkdir: 
+ DEBUG [6ffba066] 	impossible de créer le répertoire « /var/www/dev.hhbdx.fr/releases »
+ DEBUG [6ffba066] 	: Permission non accordée
+ DEBUG [6ffba066] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:36:48 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a7eb184a] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.hhbdx.fr
+ DEBUG [a7eb184a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:39:24 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6827ec41] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.hhbdx.fr
+ DEBUG [6827ec41] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:40:01 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [aaf9aec5] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.dentist-data.fr
+ DEBUG [aaf9aec5] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO [aaf9aec5] Finished in 3.736 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 100.0%
+  INFO [8be64387] Running /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [8be64387] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh )
+  INFO [8be64387] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [6a068be5] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git as exploit@dev.dentist-data.fr
+ DEBUG [6a068be5] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git )
+ DEBUG [6a068be5] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4	refs/heads/develop
+f66a53d61b231e6e9572e573d504e430aa127585	refs/heads/feature/quentin
+32c1efe5d559893ecf9d09f571aa514bc525ce06	refs/heads/master
+  INFO [6a068be5] Finished in 2.380 seconds with exit status 0 (successful).
+  INFO [cefa6363] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [cefa6363] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases )
+  INFO [cefa6363] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [9f171905] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [9f171905] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var )
+  INFO [9f171905] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [a68aa383] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [a68aa383] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config )
+  INFO [a68aa383] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [96aaf9c5] Running [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [96aaf9c5] Command: [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [96aaf9c5] Finished in 0.045 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:43:05 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2bb39b1c] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.dentist-data.fr
+ DEBUG [2bb39b1c] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO [2bb39b1c] Finished in 1.546 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 100.0%
+  INFO [524e881b] Running /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [524e881b] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh )
+  INFO [524e881b] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [25f724e7] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git as exploit@dev.dentist-data.fr
+ DEBUG [25f724e7] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git )
+ DEBUG [25f724e7] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4	refs/heads/develop
+f66a53d61b231e6e9572e573d504e430aa127585	refs/heads/feature/quentin
+32c1efe5d559893ecf9d09f571aa514bc525ce06	refs/heads/master
+  INFO [25f724e7] Finished in 1.953 seconds with exit status 0 (successful).
+  INFO [fc82c0cc] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [fc82c0cc] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases )
+  INFO [fc82c0cc] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [75976e15] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [75976e15] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var )
+  INFO [75976e15] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [f8251597] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [f8251597] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config )
+  INFO [f8251597] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [8ea81088] Running [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [8ea81088] Command: [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [8ea81088] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [d3ef18f8] Running [ -f /var/www/dev.hhbdx.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [d3ef18f8] Command: [ -f /var/www/dev.hhbdx.fr/current/REVISION ]
+ DEBUG [d3ef18f8] Finished in 0.069 seconds with exit status 1 (failed).
+ DEBUG [045174c1] Running if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [045174c1] Command: if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi
+ DEBUG [045174c1] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [b74819c0] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [b74819c0] Command: cd /var/www/dev.hhbdx.fr/shared && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [b74819c0] Finished in 0.059 seconds with exit status 1 (failed).
+  INFO [224e05fb] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  as exploit@dev.dentist-data.fr
+ DEBUG [224e05fb] Command: cd /var/www/dev.hhbdx.fr/shared && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env curl -s https://getcomposer.org/installer | php  )
+ DEBUG [224e05fb] 	All settings correct for using Composer
+ DEBUG [224e05fb] 	Downloading 1.2.4...
+ DEBUG [224e05fb] 	
+Composer successfully installed to: /var/www/dev.hhbdx.fr/shared/composer.phar
+ DEBUG [224e05fb] 	
+Use it: php composer.phar
+  INFO [224e05fb] Finished in 0.832 seconds with exit status 0 (successful).
+ DEBUG [a7a4c442] Running [ -f /var/www/dev.hhbdx.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [a7a4c442] Command: [ -f /var/www/dev.hhbdx.fr/repo/HEAD ]
+ DEBUG [a7a4c442] Finished in 0.055 seconds with exit status 1 (failed).
+ DEBUG [b5faf7a6] Running if test ! -d /var/www/dev.hhbdx.fr; then echo "Directory does not exist '/var/www/dev.hhbdx.fr'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [b5faf7a6] Command: if test ! -d /var/www/dev.hhbdx.fr; then echo "Directory does not exist '/var/www/dev.hhbdx.fr'" 1>&2; false; fi
+ DEBUG [b5faf7a6] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [af01596c] Running /usr/bin/env git clone --mirror git@github.com:DennisdeBest/hhbdx.git /var/www/dev.hhbdx.fr/repo as exploit@dev.dentist-data.fr
+ DEBUG [af01596c] Command: cd /var/www/dev.hhbdx.fr && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git clone --mirror git@github.com:DennisdeBest/hhbdx.git /var/www/dev.hhbdx.fr/repo )
+ DEBUG [af01596c] 	Clonage dans le dépôt nu '/var/www/dev.hhbdx.fr/repo'
+  INFO [af01596c] Finished in 2.844 seconds with exit status 0 (successful).
+ DEBUG [75b4c143] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [75b4c143] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [75b4c143] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [f36af773] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [f36af773] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f36af773] 	Récupération de origin
+  INFO [f36af773] Finished in 1.898 seconds with exit status 0 (successful).
+ DEBUG [3ef491ba] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [3ef491ba] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [3ef491ba] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [0551da65] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311 as exploit@dev.dentist-data.fr
+ DEBUG [0551da65] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311 )
+  INFO [0551da65] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [5cb62764] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214094311 as exploit@dev.dentist-data.fr
+ DEBUG [5cb62764] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214094311 )
+  INFO [5cb62764] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG [a8d3e55b] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a8d3e55b] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [a8d3e55b] Finished in 1.071 seconds with exit status 0 (successful).
+ DEBUG [eac26047] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [eac26047] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [eac26047] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4
+ DEBUG [eac26047] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [90f73e7e] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [90f73e7e] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi
+ DEBUG [90f73e7e] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [124874d6] Running /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [124874d6] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094311 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION )
+  INFO [124874d6] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [a957d4bb] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [a957d4bb] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config )
+  INFO [a957d4bb] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [d1b2ac7d] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [d1b2ac7d] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml ]
+ DEBUG [d1b2ac7d] Finished in 0.096 seconds with exit status 1 (failed).
+ DEBUG [b8bef047] Running [ -f /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [b8bef047] Command: [ -f /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml ]
+ DEBUG [b8bef047] Finished in 0.055 seconds with exit status 1 (failed).
+  INFO [a758761a] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [a758761a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214094311/project/app/config/parameters.yml )
+  INFO [a758761a] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [43cd23a6] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311/app /var/www/dev.hhbdx.fr/releases/20161214094311/web /var/www/dev.hhbdx.fr/releases/20161214094311 as exploit@dev.dentist-data.fr
+ DEBUG [43cd23a6] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094311/app /var/www/dev.hhbdx.fr/releases/20161214094311/web /var/www/dev.hhbdx.fr/releases/20161214094311 )
+  INFO [43cd23a6] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [30338411] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [30338411] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs ]
+ DEBUG [30338411] Finished in 0.088 seconds with exit status 1 (failed).
+ DEBUG [406c417b] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [406c417b] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs ]
+ DEBUG [406c417b] Finished in 0.054 seconds with exit status 1 (failed).
+  INFO [ae9f3881] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [ae9f3881] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214094311/app/logs )
+  INFO [ae9f3881] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [4e0b9c2d] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [4e0b9c2d] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads ]
+ DEBUG [4e0b9c2d] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [6b45b81c] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [6b45b81c] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads ]
+ DEBUG [6b45b81c] Finished in 0.054 seconds with exit status 1 (failed).
+  INFO [9c24ee16] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [9c24ee16] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214094311/web/uploads )
+  INFO [9c24ee16] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [cf29f160] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/var ] as exploit@dev.dentist-data.fr
+ DEBUG [cf29f160] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094311/var ]
+ DEBUG [cf29f160] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [9d7217d7] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/var ] as exploit@dev.dentist-data.fr
+ DEBUG [9d7217d7] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/var ]
+ DEBUG [9d7217d7] Finished in 0.088 seconds with exit status 1 (failed).
+  INFO [1b0505b3] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214094311/var as exploit@dev.dentist-data.fr
+ DEBUG [1b0505b3] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214094311/var )
+  INFO [1b0505b3] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [94602b04] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [94602b04] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi
+ DEBUG [94602b04] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [b9689a82] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [b9689a82] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094311/app/cache ]
+ DEBUG [b9689a82] Finished in 0.078 seconds with exit status 1 (failed).
+  INFO [617626d2] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [617626d2] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094311 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [617626d2] 	mkdir: création du répertoire « app/cache »
+  INFO [617626d2] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [47ff265b] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [47ff265b] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094311; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094311'" 1>&2; false; fi
+ DEBUG [47ff265b] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [9f879c04] Running /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214094311/project as exploit@dev.dentist-data.fr
+ DEBUG [9f879c04] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094311 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214094311/project )
+ DEBUG [9f879c04] 	Loading composer repositories with package information
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	Installing dependencies (including require-dev) from lock file
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing ocramius/package-versions (1.1.1)
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/lexer (v1.0.1)
+    Loading from cache
+ DEBUG [9f879c04] 	
+  - Installing doctrine/annotations (v1.2.7)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+  - Installing doctrine/collections (v1.3.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/inflector (v1.1.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/cache (v1.6.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/common (v2.6.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/dbal (v2.5.5)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing twig/twig (v1.25.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-util (v1.2.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing paragonie/random_compat (v2.0.2)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-php70 (v1.2.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-php56 (v1.2.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-mbstring (v1.2.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/symfony (v3.1.4)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-intl-icu (v1.2.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing psr/log (1.0.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing psr/cache (1.0.1)
+ DEBUG [9f879c04] 	
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/doctrine-cache-bundle (1.3.0)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/instantiator (1.0.5)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing egeloen/json-builder (2.0.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing egeloen/ckeditor-bundle (4.0.5)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing friendsofsymfony/user-bundle (dev-master 9f86fe2)
+ DEBUG [9f879c04] 	    Cloning 9f86fe2d69df11159fca9ec44b529cb1df5e14aa
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing incenteev/composer-parameter-handler (v2.1.2)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing twig/extensions (v1.4.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing sensio/framework-extra-bundle (v3.0.16)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing sensiolabs/security-checker (v3.0.2)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing sensio/distribution-bundle (v5.0.12)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing pagerfanta/pagerfanta (v1.0.3)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/orm (v2.5.5)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing jdorn/sql-formatter (v1.2.17)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing doctrine/doctrine-bundle (1.6.4)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing javiereguiluz/easyadmin-bundle (v1.15.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing jms/i18n-routing-bundle (dev-master 1c73115)
+ DEBUG [9f879c04] 	    Cloning 1c7311596abea9356c9bc540346d1e4738288d79
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing nikic/php-parser (v2.1.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing jms/translation-bundle (1.3.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing kriswallsmith/assetic (v1.3.2)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/assetic-bundle (v2.8.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing monolog/monolog (1.21.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/monolog-bundle (2.11.1)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/polyfill-apcu (v1.2.0)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing swiftmailer/swiftmailer (v5.4.3)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/swiftmailer-bundle (v2.3.11)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing zendframework/zend-eventmanager (3.0.1)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing zendframework/zend-code (3.0.4)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing ocramius/proxy-manager (2.0.3)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing jms/metadata (1.5.1)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing vich/uploader-bundle (1.3.1)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing sensio/generator-bundle (v3.0.8)
+ DEBUG [9f879c04] 	    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	  - Installing symfony/phpunit-bridge (v3.1.4)
+    Loading from cache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/polyfill-intl-icu suggests installing ext-intl (For best performance)
+ DEBUG [9f879c04] 	doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+egeloen/ckeditor-bundle suggests installing egeloen/form-extra-bundle (Allows to load CKEditor asynchronously)
+friendsofsymfony/user-bundle suggests installing willdurand/propel-typehintable-behavior (Needed when using the propel implementation)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+ DEBUG [9f879c04] 	pagerfanta/pagerfanta suggests installing doctrine/mongodb-odm (To use the DoctrineODMMongoDBAdapter.)
+pagerfanta/pagerfanta suggests installing doctrine/phpcr-odm (To use the DoctrineODMPhpcrAdapter. >= 1.1.0)
+pagerfanta/pagerfanta suggests installing mandango/mandango (To use the MandangoAdapter.)
+pagerfanta/pagerfanta suggests installing propel/propel1 (To use the PropelAdapter)
+pagerfanta/pagerfanta suggests installing solarium/solarium (To use the SolariumAdapter.)
+kriswallsmith/assetic suggests installing leafo/lessphp (Assetic provides the integration with the lessphp LESS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp (Assetic provides the integration with the scssphp SCSS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp-compass (Assetic provides the integration with the SCSS compass plugin)
+kriswallsmith/assetic suggests installing patchwork/jsqueeze (Assetic provides the integration with the JSqueeze JavaScript compressor)
+kriswallsmith/assetic suggests installing ptachoire/cssembed (Assetic provides the integration with phpcssembed to embed data uris)
+ DEBUG [9f879c04] 	symfony/assetic-bundle suggests installing kriswallsmith/spork (to be able to dump assets in parallel)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+ DEBUG [9f879c04] 	monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+ DEBUG [9f879c04] 	monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+zendframework/zend-eventmanager suggests installing container-interop/container-interop (^1.1.0, to use the lazy listeners feature)
+zendframework/zend-eventmanager suggests installing zendframework/zend-stdlib (^2.7.3 || ^3.0, to use the FilterChain feature)
+ DEBUG [9f879c04] 	zendframework/zend-code suggests installing zendframework/zend-stdlib (Zend\Stdlib component)
+ocramius/proxy-manager suggests installing ocramius/generated-hydrator (To have very fast object to array to object conversion for ghost objects)
+ocramius/proxy-manager suggests installing zendframework/zend-json (To have the JsonRpc adapter (Remote Object feature))
+ DEBUG [9f879c04] 	ocramius/proxy-manager suggests installing zendframework/zend-soap (To have the Soap adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-xmlrpc (To have the XmlRpc adapter (Remote Object feature))
+vich/uploader-bundle suggests installing doctrine/mongodb-odm-bundle (*)
+vich/uploader-bundle suggests installing doctrine/phpcr-odm (~1.0)
+ DEBUG [9f879c04] 	
+vich/uploader-bundle suggests installing knplabs/knp-gaufrette-bundle (~0.3)
+vich/uploader-bundle suggests installing willdurand/propel-eventdispatcher-bundle (~1.2)
+ DEBUG [9f879c04] 	Generating optimized autoload files
+ DEBUG [9f879c04] 	ocramius/package-versions:  Generating version class...
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	ocramius/package-versions: ...done generating version class
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	Updating the "app/config/parameters.yml" file
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	                                                                                                                               
+  [Doctrine\DBAL\Exception\ConnectionException]                                                                                
+  An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                                                               
+
+ DEBUG [9f879c04] 	                                                                                               
+  [Doctrine\DBAL\Driver\PDOException]                                                          
+  SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                               
+
+ DEBUG [9f879c04] 	                                                                                               
+  [PDOException]                                                                               
+  SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                               
+
+ DEBUG [9f879c04] 	Script Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache handling the symfony-scripts event terminated with an exception
+ DEBUG [9f879c04] 	
+ DEBUG [9f879c04] 	                                                                                                                                   
+  [RuntimeException]                                                                                                               
+  An error occurred when executing the "'cache:clear --no-warmup'" command:                                                        
+                                                                                                                                   
+    [Doctrine\DBAL\Exception\ConnectionException]                                                                                  
+    An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)    
+                                                                                                                                   
+                                                                                                                                   
+    [Doctrine\DBAL\Driver\PDOException]                                                                                            
+    SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)                                    
+                                                                                                                                   
+                                                                                                                                   
+    [PDOException]                                                                                                                 
+    SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)                                    
+                                                                                                                                   
+  .                                                                                                                                
+                                                                                                                                   
+
+install [--prefer-source] [--prefer-dist] [--dry-run] [--dev] [--no-dev] [--no-custom-installers] [--no-autoloader] [--no-scripts] [--no-progress] [--no-suggest] [-v|vv|vvv|--verbose] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--ignore-platform-reqs] [--] [<packages>]...
+
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:46:30 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1b9ca3fb] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.dentist-data.fr
+ DEBUG [1b9ca3fb] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO [1b9ca3fb] Finished in 0.467 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 100.0%
+  INFO [dc610086] Running /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [dc610086] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh )
+  INFO [dc610086] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [3e0a2894] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git as exploit@dev.dentist-data.fr
+ DEBUG [3e0a2894] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git )
+ DEBUG [3e0a2894] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4	refs/heads/develop
+f66a53d61b231e6e9572e573d504e430aa127585	refs/heads/feature/quentin
+32c1efe5d559893ecf9d09f571aa514bc525ce06	refs/heads/master
+  INFO [3e0a2894] Finished in 1.566 seconds with exit status 0 (successful).
+  INFO [7ae487b0] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [7ae487b0] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases )
+  INFO [7ae487b0] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [fe3f8611] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [fe3f8611] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var )
+  INFO [fe3f8611] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [c9596427] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [c9596427] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config )
+  INFO [c9596427] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [2bc97983] Running [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [2bc97983] Command: [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [2bc97983] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [a2fb076d] Running [ -f /var/www/dev.hhbdx.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [a2fb076d] Command: [ -f /var/www/dev.hhbdx.fr/current/REVISION ]
+ DEBUG [a2fb076d] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [120f0e7e] Running if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [120f0e7e] Command: if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi
+ DEBUG [120f0e7e] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [9118c8f7] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [9118c8f7] Command: cd /var/www/dev.hhbdx.fr/shared && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [9118c8f7] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [b439d385] Running [ -f /var/www/dev.hhbdx.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [b439d385] Command: [ -f /var/www/dev.hhbdx.fr/repo/HEAD ]
+ DEBUG [b439d385] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/dev.hhbdx.fr/repo
+ DEBUG [86af3415] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [86af3415] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [86af3415] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [cb93af83] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [cb93af83] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [cb93af83] 	Récupération de origin
+  INFO [cb93af83] Finished in 1.838 seconds with exit status 0 (successful).
+ DEBUG [a3762e52] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a3762e52] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [a3762e52] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [4aaa599a] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634 as exploit@dev.dentist-data.fr
+ DEBUG [4aaa599a] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634 )
+  INFO [4aaa599a] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [2163323c] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214094634 as exploit@dev.dentist-data.fr
+ DEBUG [2163323c] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214094634 )
+  INFO [2163323c] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [6e2abaa6] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [6e2abaa6] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [6e2abaa6] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [f0315a59] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [f0315a59] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [f0315a59] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4
+ DEBUG [f0315a59] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [caf81071] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [caf81071] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi
+ DEBUG [caf81071] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [dcb7fcfe] Running /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [dcb7fcfe] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094634 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION )
+  INFO [dcb7fcfe] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [0aea54eb] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [0aea54eb] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config )
+  INFO [0aea54eb] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [f0265e55] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [f0265e55] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml ]
+ DEBUG [f0265e55] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [7862e079] Running [ -f /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [7862e079] Command: [ -f /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml ]
+ DEBUG [7862e079] Finished in 0.053 seconds with exit status 1 (failed).
+  INFO [69f0eab1] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [69f0eab1] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214094634/project/app/config/parameters.yml )
+  INFO [69f0eab1] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [48813903] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634/app /var/www/dev.hhbdx.fr/releases/20161214094634/web /var/www/dev.hhbdx.fr/releases/20161214094634 as exploit@dev.dentist-data.fr
+ DEBUG [48813903] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214094634/app /var/www/dev.hhbdx.fr/releases/20161214094634/web /var/www/dev.hhbdx.fr/releases/20161214094634 )
+  INFO [48813903] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [fdeae2a0] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [fdeae2a0] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs ]
+ DEBUG [fdeae2a0] Finished in 0.089 seconds with exit status 1 (failed).
+ DEBUG [d61d6fc1] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [d61d6fc1] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs ]
+ DEBUG [d61d6fc1] Finished in 0.057 seconds with exit status 1 (failed).
+  INFO [150cb59b] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [150cb59b] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214094634/app/logs )
+  INFO [150cb59b] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [cb59fed0] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [cb59fed0] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads ]
+ DEBUG [cb59fed0] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [683eaeee] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [683eaeee] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads ]
+ DEBUG [683eaeee] Finished in 0.091 seconds with exit status 1 (failed).
+  INFO [4adec519] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [4adec519] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214094634/web/uploads )
+  INFO [4adec519] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [1db31d39] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/var ] as exploit@dev.dentist-data.fr
+ DEBUG [1db31d39] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214094634/var ]
+ DEBUG [1db31d39] Finished in 0.055 seconds with exit status 1 (failed).
+ DEBUG [d2be2a09] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/var ] as exploit@dev.dentist-data.fr
+ DEBUG [d2be2a09] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/var ]
+ DEBUG [d2be2a09] Finished in 0.086 seconds with exit status 1 (failed).
+  INFO [d09b2540] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214094634/var as exploit@dev.dentist-data.fr
+ DEBUG [d09b2540] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214094634/var )
+  INFO [d09b2540] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [7e482eca] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [7e482eca] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi
+ DEBUG [7e482eca] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [c29b34a2] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [c29b34a2] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214094634/app/cache ]
+ DEBUG [c29b34a2] Finished in 0.086 seconds with exit status 1 (failed).
+  INFO [a95e29b1] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [a95e29b1] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094634 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [a95e29b1] 	mkdir: création du répertoire « app/cache »
+  INFO [a95e29b1] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [d96c583e] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [d96c583e] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214094634; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214094634'" 1>&2; false; fi
+ DEBUG [d96c583e] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [95f2e178] Running /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214094634/project as exploit@dev.dentist-data.fr
+ DEBUG [95f2e178] Command: cd /var/www/dev.hhbdx.fr/releases/20161214094634 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214094634/project )
+ DEBUG [95f2e178] 	Loading composer repositories with package information
+ DEBUG [95f2e178] 	Installing dependencies (including require-dev) from lock file
+ DEBUG [95f2e178] 	  - Installing ocramius/package-versions (1.1.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/lexer (v1.0.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/annotations (v1.2.7)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/collections (v1.3.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/inflector (v1.1.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/cache (v1.6.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/common (v2.6.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/dbal (v2.5.5)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing twig/twig (v1.25.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-util (v1.2.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing paragonie/random_compat (v2.0.2)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-php70 (v1.2.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-php56 (v1.2.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-mbstring (v1.2.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/symfony (v3.1.4)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-intl-icu (v1.2.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing psr/log (1.0.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing psr/cache (1.0.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/doctrine-cache-bundle (1.3.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/instantiator (1.0.5)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing egeloen/json-builder (2.0.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing egeloen/ckeditor-bundle (4.0.5)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing friendsofsymfony/user-bundle (dev-master 9f86fe2)
+ DEBUG [95f2e178] 	    Cloning 9f86fe2d69df11159fca9ec44b529cb1df5e14aa
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing incenteev/composer-parameter-handler (v2.1.2)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing twig/extensions (v1.4.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing sensio/framework-extra-bundle (v3.0.16)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing sensiolabs/security-checker (v3.0.2)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing sensio/distribution-bundle (v5.0.12)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+  - Installing pagerfanta/pagerfanta (v1.0.3)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/orm (v2.5.5)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing jdorn/sql-formatter (v1.2.17)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing doctrine/doctrine-bundle (1.6.4)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing javiereguiluz/easyadmin-bundle (v1.15.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing jms/i18n-routing-bundle (dev-master 1c73115)
+    Cloning 1c7311596abea9356c9bc540346d1e4738288d79
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing nikic/php-parser (v2.1.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing jms/translation-bundle (1.3.1)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing kriswallsmith/assetic (v1.3.2)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/assetic-bundle (v2.8.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing monolog/monolog (1.21.0)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/monolog-bundle (2.11.1)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/polyfill-apcu (v1.2.0)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing swiftmailer/swiftmailer (v5.4.3)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/swiftmailer-bundle (v2.3.11)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing zendframework/zend-eventmanager (3.0.1)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing zendframework/zend-code (3.0.4)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing ocramius/proxy-manager (2.0.3)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing jms/metadata (1.5.1)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing vich/uploader-bundle (1.3.1)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing sensio/generator-bundle (v3.0.8)
+    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	  - Installing symfony/phpunit-bridge (v3.1.4)
+ DEBUG [95f2e178] 	    Loading from cache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/polyfill-intl-icu suggests installing ext-intl (For best performance)
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+egeloen/ckeditor-bundle suggests installing egeloen/form-extra-bundle (Allows to load CKEditor asynchronously)
+friendsofsymfony/user-bundle suggests installing willdurand/propel-typehintable-behavior (Needed when using the propel implementation)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+pagerfanta/pagerfanta suggests installing doctrine/mongodb-odm (To use the DoctrineODMMongoDBAdapter.)
+pagerfanta/pagerfanta suggests installing doctrine/phpcr-odm (To use the DoctrineODMPhpcrAdapter. >= 1.1.0)
+pagerfanta/pagerfanta suggests installing mandango/mandango (To use the MandangoAdapter.)
+pagerfanta/pagerfanta suggests installing propel/propel1 (To use the PropelAdapter)
+pagerfanta/pagerfanta suggests installing solarium/solarium (To use the SolariumAdapter.)
+kriswallsmith/assetic suggests installing leafo/lessphp (Assetic provides the integration with the lessphp LESS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp (Assetic provides the integration with the scssphp SCSS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp-compass (Assetic provides the integration with the SCSS compass plugin)
+kriswallsmith/assetic suggests installing patchwork/jsqueeze (Assetic provides the integration with the JSqueeze JavaScript compressor)
+kriswallsmith/assetic suggests installing ptachoire/cssembed (Assetic provides the integration with phpcssembed to embed data uris)
+symfony/assetic-bundle suggests installing kriswallsmith/spork (to be able to dump assets in parallel)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+zendframework/zend-eventmanager suggests installing container-interop/container-interop (^1.1.0, to use the lazy listeners feature)
+zendframework/zend-eventmanager suggests installing zendframework/zend-stdlib (^2.7.3 || ^3.0, to use the FilterChain feature)
+zendframework/zend-code suggests installing zendframework/zend-stdlib (Zend\Stdlib component)
+ocramius/proxy-manager suggests installing ocramius/generated-hydrator (To have very fast object to array to object conversion for ghost objects)
+ocramius/proxy-manager suggests installing zendframework/zend-json (To have the JsonRpc adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-soap (To have the Soap adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-xmlrpc (To have the XmlRpc adapter (Remote Object feature))
+vich/uploader-bundle suggests installing doctrine/mongodb-odm-bundle (*)
+vich/uploader-bundle suggests installing doctrine/phpcr-odm (~1.0)
+vich/uploader-bundle suggests installing knplabs/knp-gaufrette-bundle (~0.3)
+vich/uploader-bundle suggests installing willdurand/propel-eventdispatcher-bundle (~1.2)
+Generating optimized autoload files
+ DEBUG [95f2e178] 	ocramius/package-versions:  Generating version class...
+ DEBUG [95f2e178] 	ocramius/package-versions: ...done generating version class
+ DEBUG [95f2e178] 	> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+ DEBUG [95f2e178] 	Updating the "app/config/parameters.yml" file
+ DEBUG [95f2e178] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+ DEBUG [95f2e178] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	                                                                                                                               
+  [Doctrine\DBAL\Exception\ConnectionException]                                                                                
+  An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                                                               
+
+ DEBUG [95f2e178] 	                                                                                               
+  [Doctrine\DBAL\Driver\PDOException]                                                          
+  SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                               
+
+ DEBUG [95f2e178] 	                                                                                               
+  [PDOException]                                                                               
+  SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)  
+                                                                                               
+
+ DEBUG [95f2e178] 	Script Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache handling the symfony-scripts event terminated with an exception
+ DEBUG [95f2e178] 	
+ DEBUG [95f2e178] 	                                                                                                                                   
+  [RuntimeException]                                                                                                               
+  An error occurred when executing the "'cache:clear --no-warmup'" command:                                                        
+                                                                                                                                   
+    [Doctrine\DBAL\Exception\ConnectionException]                                                                                  
+    An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)    
+                                                                                                                                   
+                                                                                                                                   
+    [Doctrine\DBAL\Driver\PDOException]                                                                                            
+    SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)                                    
+                                                                                                                                   
+                                                                                                                                   
+ DEBUG [95f2e178] 	
+    [PDOException]                                                                                                                 
+    SQLSTATE[HY000] [1045] Access denied for user 'dev_hhbdx'@'localhost' (using password: YES)                                    
+                                                                                                                                   
+  .                                                                                                                                
+                                                                                                                                   
+
+ DEBUG [95f2e178] 	install [--prefer-source] [--prefer-dist] [--dry-run] [--dev] [--no-dev] [--no-custom-installers] [--no-autoloader] [--no-scripts] [--no-progress] [--no-suggest] [-v|vv|vvv|--verbose] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--ignore-platform-reqs] [--] [<packages>]...
+
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-14 10:53:55 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [826dcbee] Running /usr/bin/env mkdir -p /tmp/hhbdx as exploit@dev.dentist-data.fr
+ DEBUG [826dcbee] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /tmp/hhbdx )
+  INFO [826dcbee] Finished in 3.133 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh 100.0%
+  INFO [6bc4ff36] Running /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [6bc4ff36] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env chmod 700 /tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh )
+  INFO [6bc4ff36] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [0d25d30f] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git as exploit@dev.dentist-data.fr
+ DEBUG [0d25d30f] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/hhbdx.git )
+ DEBUG [0d25d30f] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4	refs/heads/develop
+f66a53d61b231e6e9572e573d504e430aa127585	refs/heads/feature/quentin
+32c1efe5d559893ecf9d09f571aa514bc525ce06	refs/heads/master
+  INFO [0d25d30f] Finished in 3.053 seconds with exit status 0 (successful).
+  INFO [b77b6f30] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [b77b6f30] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared /var/www/dev.hhbdx.fr/releases )
+  INFO [b77b6f30] Finished in 0.161 seconds with exit status 0 (successful).
+  INFO [7d7054bd] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [7d7054bd] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/shared/var )
+  INFO [7d7054bd] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [54a02f54] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [54a02f54] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/shared/project/app/config )
+  INFO [54a02f54] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [cb4516a3] Running [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [cb4516a3] Command: [ -f /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml ]
+ DEBUG [cb4516a3] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [8c06705e] Running [ -f /var/www/dev.hhbdx.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [8c06705e] Command: [ -f /var/www/dev.hhbdx.fr/current/REVISION ]
+ DEBUG [8c06705e] Finished in 0.068 seconds with exit status 1 (failed).
+ DEBUG [8c799d8f] Running if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [8c799d8f] Command: if test ! -d /var/www/dev.hhbdx.fr/shared; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/shared'" 1>&2; false; fi
+ DEBUG [8c799d8f] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [bd5a39c4] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [bd5a39c4] Command: cd /var/www/dev.hhbdx.fr/shared && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [bd5a39c4] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [3d6750c5] Running [ -f /var/www/dev.hhbdx.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [3d6750c5] Command: [ -f /var/www/dev.hhbdx.fr/repo/HEAD ]
+ DEBUG [3d6750c5] Finished in 0.308 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/dev.hhbdx.fr/repo
+ DEBUG [a37c1454] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a37c1454] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [a37c1454] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [32e20db2] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [32e20db2] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [32e20db2] 	Récupération de origin
+  INFO [32e20db2] Finished in 1.805 seconds with exit status 0 (successful).
+ DEBUG [fcc36cf8] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [fcc36cf8] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [fcc36cf8] Finished in 0.295 seconds with exit status 0 (successful).
+  INFO [10a9dd03] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404 as exploit@dev.dentist-data.fr
+ DEBUG [10a9dd03] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404 )
+  INFO [10a9dd03] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [040bee5e] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214095404 as exploit@dev.dentist-data.fr
+ DEBUG [040bee5e] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.hhbdx.fr/releases/20161214095404 )
+  INFO [040bee5e] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [0fc73b4d] Running if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [0fc73b4d] Command: if test ! -d /var/www/dev.hhbdx.fr/repo; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/repo'" 1>&2; false; fi
+ DEBUG [0fc73b4d] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [fd1785ab] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [fd1785ab] Command: cd /var/www/dev.hhbdx.fr/repo && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/hhbdx/git-ssh-hhbdx-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [fd1785ab] 	9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4
+ DEBUG [fd1785ab] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [2acd7a6a] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [2acd7a6a] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [2acd7a6a] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [795de480] Running /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [795de480] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4" >> REVISION )
+  INFO [795de480] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [70a6a34d] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config as exploit@dev.dentist-data.fr
+ DEBUG [70a6a34d] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config )
+  INFO [70a6a34d] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [3e85e67f] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [3e85e67f] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml ]
+ DEBUG [3e85e67f] Finished in 0.058 seconds with exit status 1 (failed).
+ DEBUG [37f04dc3] Running [ -f /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [37f04dc3] Command: [ -f /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml ]
+ DEBUG [37f04dc3] Finished in 0.059 seconds with exit status 1 (failed).
+  INFO [85c66e0f] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [85c66e0f] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/project/app/config/parameters.yml /var/www/dev.hhbdx.fr/releases/20161214095404/project/app/config/parameters.yml )
+  INFO [85c66e0f] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [94ed6b4a] Running /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404/app /var/www/dev.hhbdx.fr/releases/20161214095404/web /var/www/dev.hhbdx.fr/releases/20161214095404 as exploit@dev.dentist-data.fr
+ DEBUG [94ed6b4a] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -p /var/www/dev.hhbdx.fr/releases/20161214095404/app /var/www/dev.hhbdx.fr/releases/20161214095404/web /var/www/dev.hhbdx.fr/releases/20161214095404 )
+  INFO [94ed6b4a] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [67406257] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [67406257] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs ]
+ DEBUG [67406257] Finished in 0.059 seconds with exit status 1 (failed).
+ DEBUG [0eeebbea] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [0eeebbea] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs ]
+ DEBUG [0eeebbea] Finished in 0.067 seconds with exit status 1 (failed).
+  INFO [8196c3b2] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [8196c3b2] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/app/logs /var/www/dev.hhbdx.fr/releases/20161214095404/app/logs )
+  INFO [8196c3b2] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [478b50fc] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [478b50fc] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads ]
+ DEBUG [478b50fc] Finished in 0.045 seconds with exit status 1 (failed).
+ DEBUG [e4a12c0c] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [e4a12c0c] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads ]
+ DEBUG [e4a12c0c] Finished in 0.057 seconds with exit status 1 (failed).
+  INFO [9455a43f] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [9455a43f] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/web/uploads /var/www/dev.hhbdx.fr/releases/20161214095404/web/uploads )
+  INFO [9455a43f] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [2663fab1] Running [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/var ] as exploit@dev.dentist-data.fr
+ DEBUG [2663fab1] Command: [ -L /var/www/dev.hhbdx.fr/releases/20161214095404/var ]
+ DEBUG [2663fab1] Finished in 0.055 seconds with exit status 1 (failed).
+ DEBUG [99016fc9] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/var ] as exploit@dev.dentist-data.fr
+ DEBUG [99016fc9] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/var ]
+ DEBUG [99016fc9] Finished in 0.069 seconds with exit status 1 (failed).
+  INFO [e1f9069b] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214095404/var as exploit@dev.dentist-data.fr
+ DEBUG [e1f9069b] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/shared/var /var/www/dev.hhbdx.fr/releases/20161214095404/var )
+  INFO [e1f9069b] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [5856689b] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [5856689b] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [5856689b] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [e61d5aa3] Running [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [e61d5aa3] Command: [ -d /var/www/dev.hhbdx.fr/releases/20161214095404/app/cache ]
+ DEBUG [e61d5aa3] Finished in 0.056 seconds with exit status 1 (failed).
+  INFO [84c652c7] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [84c652c7] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [84c652c7] 	mkdir: création du répertoire « app/cache »
+  INFO [84c652c7] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [a6428981] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a6428981] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [a6428981] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [6968e51f] Running /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214095404/project as exploit@dev.dentist-data.fr
+ DEBUG [6968e51f] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php /usr/local/bin/composer install --no-interaction --optimize-autoloader --working-dir=/var/www/dev.hhbdx.fr/releases/20161214095404/project )
+ DEBUG [6968e51f] 	Loading composer repositories with package information
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	Installing dependencies (including require-dev) from lock file
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing ocramius/package-versions (1.1.1)
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/lexer (v1.0.1)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+  - Installing doctrine/annotations (v1.2.7)
+    Loading from cache
+ DEBUG [6968e51f] 	
+  - Installing doctrine/collections (v1.3.0)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+  - Installing doctrine/inflector (v1.1.0)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/cache (v1.6.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/common (v2.6.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/dbal (v2.5.5)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing twig/twig (v1.25.0)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-util (v1.2.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing paragonie/random_compat (v2.0.2)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-php70 (v1.2.0)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-php56 (v1.2.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-mbstring (v1.2.0)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/symfony (v3.1.4)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-intl-icu (v1.2.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing psr/log (1.0.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing psr/cache (1.0.1)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/doctrine-cache-bundle (1.3.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/instantiator (1.0.5)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing egeloen/json-builder (2.0.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing egeloen/ckeditor-bundle (4.0.5)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing friendsofsymfony/user-bundle (dev-master 9f86fe2)
+ DEBUG [6968e51f] 	    Cloning 9f86fe2d69df11159fca9ec44b529cb1df5e14aa
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing incenteev/composer-parameter-handler (v2.1.2)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing twig/extensions (v1.4.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing sensio/framework-extra-bundle (v3.0.16)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing sensiolabs/security-checker (v3.0.2)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing sensio/distribution-bundle (v5.0.12)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing pagerfanta/pagerfanta (v1.0.3)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/orm (v2.5.5)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing jdorn/sql-formatter (v1.2.17)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing doctrine/doctrine-bundle (1.6.4)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing javiereguiluz/easyadmin-bundle (v1.15.1)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing jms/i18n-routing-bundle (dev-master 1c73115)
+    Cloning 1c7311596abea9356c9bc540346d1e4738288d79
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing nikic/php-parser (v2.1.1)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing jms/translation-bundle (1.3.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing kriswallsmith/assetic (v1.3.2)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/assetic-bundle (v2.8.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing monolog/monolog (1.21.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/monolog-bundle (2.11.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/polyfill-apcu (v1.2.0)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing swiftmailer/swiftmailer (v5.4.3)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/swiftmailer-bundle (v2.3.11)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing zendframework/zend-eventmanager (3.0.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing zendframework/zend-code (3.0.4)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing ocramius/proxy-manager (2.0.3)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing jms/metadata (1.5.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing vich/uploader-bundle (1.3.1)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing sensio/generator-bundle (v3.0.8)
+    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  - Installing symfony/phpunit-bridge (v3.1.4)
+ DEBUG [6968e51f] 	    Loading from cache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/polyfill-intl-icu suggests installing ext-intl (For best performance)
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+egeloen/ckeditor-bundle suggests installing egeloen/form-extra-bundle (Allows to load CKEditor asynchronously)
+friendsofsymfony/user-bundle suggests installing willdurand/propel-typehintable-behavior (Needed when using the propel implementation)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+pagerfanta/pagerfanta suggests installing doctrine/mongodb-odm (To use the DoctrineODMMongoDBAdapter.)
+pagerfanta/pagerfanta suggests installing doctrine/phpcr-odm (To use the DoctrineODMPhpcrAdapter. >= 1.1.0)
+pagerfanta/pagerfanta suggests installing mandango/mandango (To use the MandangoAdapter.)
+pagerfanta/pagerfanta suggests installing propel/propel1 (To use the PropelAdapter)
+pagerfanta/pagerfanta suggests installing solarium/solarium (To use the SolariumAdapter.)
+kriswallsmith/assetic suggests installing leafo/lessphp (Assetic provides the integration with the lessphp LESS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp (Assetic provides the integration with the scssphp SCSS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp-compass (Assetic provides the integration with the SCSS compass plugin)
+kriswallsmith/assetic suggests installing patchwork/jsqueeze (Assetic provides the integration with the JSqueeze JavaScript compressor)
+kriswallsmith/assetic suggests installing ptachoire/cssembed (Assetic provides the integration with phpcssembed to embed data uris)
+symfony/assetic-bundle suggests installing kriswallsmith/spork (to be able to dump assets in parallel)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+zendframework/zend-eventmanager suggests installing container-interop/container-interop (^1.1.0, to use the lazy listeners feature)
+zendframework/zend-eventmanager suggests installing zendframework/zend-stdlib (^2.7.3 || ^3.0, to use the FilterChain feature)
+zendframework/zend-code suggests installing zendframework/zend-stdlib (Zend\Stdlib component)
+ocramius/proxy-manager suggests installing ocramius/generated-hydrator (To have very fast object to array to object conversion for ghost objects)
+ocramius/proxy-manager suggests installing zendframework/zend-json (To have the JsonRpc adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-soap (To have the Soap adapter (Remote Object feature))
+ocramius/proxy-manager suggests installing zendframework/zend-xmlrpc (To have the XmlRpc adapter (Remote Object feature))
+vich/uploader-bundle suggests installing doctrine/mongodb-odm-bundle (*)
+vich/uploader-bundle suggests installing doctrine/phpcr-odm (~1.0)
+vich/uploader-bundle suggests installing knplabs/knp-gaufrette-bundle (~0.3)
+vich/uploader-bundle suggests installing willdurand/propel-eventdispatcher-bundle (~1.2)
+Generating optimized autoload files
+ DEBUG [6968e51f] 	ocramius/package-versions:  Generating version class...
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	ocramius/package-versions: ...done generating version class
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	Updating the "app/config/parameters.yml" file
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	 // Clearing the cache for the dev environment with debug true                                                          
+
+ DEBUG [6968e51f] 	 [OK] Cache for the "dev" environment (debug=true) was successfully cleared.                                            
+ DEBUG [6968e51f] 	
+
+ DEBUG [6968e51f] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installAssets
+ DEBUG [6968e51f] 	
+ Trying to install assets as relative symbolic links.
+
+ DEBUG [6968e51f] 	 --- ---------------------- ------------------ 
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	      Bundle                 Method / Error    
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	 --- ---------------------- ------------------ 
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  ✔   FrameworkBundle        relative symlink  
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  ✔   AppBundle              relative symlink  
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  ✔   EasyAdminBundle        relative symlink  
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  ✔   IvoryCKEditorBundle    relative symlink  
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	  ✔   JMSTranslationBundle   relative symlink  
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	 --- ---------------------- ------------------ 
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	 [OK] All assets were successfully installed.                                                                           
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	
+ DEBUG [6968e51f] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installRequirementsFile
+ DEBUG [6968e51f] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::prepareDeploymentTarget
+  INFO [6968e51f] Finished in 19.156 seconds with exit status 0 (successful).
+ DEBUG [a1d619c5] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a1d619c5] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [a1d619c5] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [3bf5d5a8] Running /opt/php-7.0.1/bin/php project/bin/console cache:warmup  --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [3bf5d5a8] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console cache:warmup  --no-debug )
+ DEBUG [3bf5d5a8] 	
+ // Warming up the cache for the dev environment with debug false                                                       
+
+ DEBUG [3bf5d5a8] 	 [OK] Cache for the "dev" environment (debug=false) was successfully warmed.                                            
+ DEBUG [3bf5d5a8] 	
+ DEBUG [3bf5d5a8] 	
+  INFO [3bf5d5a8] Finished in 19.892 seconds with exit status 0 (successful).
+ DEBUG [36f00105] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404/project/web; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404/project/web'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [36f00105] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404/project/web; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404/project/web'" 1>&2; false; fi
+ DEBUG [36f00105] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [d947cef9] Running /usr/bin/env rm -f  as exploit@dev.dentist-data.fr
+ DEBUG [d947cef9] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404/project/web && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env rm -f  )
+  INFO [d947cef9] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [8cac8d87] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [8cac8d87] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [8cac8d87] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [5a15ea24] Running /opt/php-7.0.1/bin/php project/bin/console assets:install web --symlink --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [5a15ea24] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console assets:install web --symlink --no-debug )
+ DEBUG [5a15ea24] 	
+ Trying to install assets as absolute symbolic links.
+
+ --- ---------------------- ------------------ 
+      Bundle                 Method / Error    
+ --- ---------------------- ------------------ 
+  ✔   FrameworkBundle        absolute symlink  
+  ✔   AppBundle              absolute symlink  
+  ✔   EasyAdminBundle        absolute symlink  
+  ✔   IvoryCKEditorBundle    absolute symlink  
+  ✔   JMSTranslationBundle   absolute symlink  
+ --- ---------------------- ------------------ 
+
+ [OK] All assets were successfully installed.                                                                           
+
+  INFO [5a15ea24] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [f280cb5e] Running if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [f280cb5e] Command: if test ! -d /var/www/dev.hhbdx.fr/releases/20161214095404; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases/20161214095404'" 1>&2; false; fi
+ DEBUG [f280cb5e] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [5fd5716a] Running /opt/php-7.0.1/bin/php project/bin/console doctrine:migrations:migrate  --no-interaction; true  --no-debug as exploit@dev.dentist-data.fr
+ DEBUG [5fd5716a] Command: cd /var/www/dev.hhbdx.fr/releases/20161214095404 && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /opt/php-7.0.1/bin/php project/bin/console doctrine:migrations:migrate  --no-interaction; true  --no-debug )
+ DEBUG [5fd5716a] 	
+ DEBUG [5fd5716a] 	                                                                         
+  [Symfony\Component\Console\Exception\CommandNotFoundException]         
+  There are no commands defined in the "doctrine:migrations" namespace.  
+  Did you mean one of these?                                             
+      doctrine                                                           
+      doctrine:database                                                  
+      doctrine:mapping                                                   
+      doctrine:cache                                                     
+      doctrine:schema                                                    
+      doctrine:query                                                     
+      doctrine:generate                                                  
+                                                                         
+
+  INFO [5fd5716a] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [551977de] Running /usr/bin/env ln -s /var/www/dev.hhbdx.fr/releases/20161214095404 /var/www/dev.hhbdx.fr/releases/current as exploit@dev.dentist-data.fr
+ DEBUG [551977de] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ln -s /var/www/dev.hhbdx.fr/releases/20161214095404 /var/www/dev.hhbdx.fr/releases/current )
+  INFO [551977de] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [176aa908] Running /usr/bin/env mv /var/www/dev.hhbdx.fr/releases/current /var/www/dev.hhbdx.fr as exploit@dev.dentist-data.fr
+ DEBUG [176aa908] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env mv /var/www/dev.hhbdx.fr/releases/current /var/www/dev.hhbdx.fr )
+  INFO [176aa908] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [272dde13] Running /usr/bin/env ls -x /var/www/dev.hhbdx.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [272dde13] Command: ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env ls -x /var/www/dev.hhbdx.fr/releases )
+ DEBUG [272dde13] 	20161214094311	20161214094634	20161214095404
+ DEBUG [272dde13] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [72e5e928] Running if test ! -d /var/www/dev.hhbdx.fr/releases; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [72e5e928] Command: if test ! -d /var/www/dev.hhbdx.fr/releases; then echo "Directory does not exist '/var/www/dev.hhbdx.fr/releases'" 1>&2; false; fi
+ DEBUG [72e5e928] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [893a6bae] Running /usr/bin/env echo "Branch develop (at 9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4) deployed as release 20161214095404 by dennisdebest" >> /var/www/dev.hhbdx.fr/revisions.log as exploit@dev.dentist-data.fr
+ DEBUG [893a6bae] Command: cd /var/www/dev.hhbdx.fr/releases && ( export PATH="$PATH:/opt/php-7.0.1/bin/php" SYMFONY_ENV="dev" ; /usr/bin/env echo "Branch develop (at 9b4996aa414139cf2a1c53a026cb7b9f16b1b9d4) deployed as release 20161214095404 by dennisdebest" >> /var/www/dev.hhbdx.fr/revisions.log )
+  INFO [893a6bae] Finished in 0.049 seconds with exit status 0 (successful).
