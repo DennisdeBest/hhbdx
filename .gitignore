@@ -53,3 +53,7 @@
 
 .idea/
 .vagrant/
+/log/
+/provision/
+/project/.idea/
+/project/tests/

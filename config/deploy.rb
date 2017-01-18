@@ -41,7 +41,7 @@ set :linked_files, fetch(:linked_files, []).push('project/app/config/parameters.
 # Default value for linked_dirs is []
 set :linked_dirs, fetch(:linked_dirs, []).push('var')
 # Dirs that need to be writable by the HTTP Server (i.e. cache, log dirs)
-set :file_permissions_paths,['project/var/cache/dev/']
+set :file_permissions_paths,['project/var/cache', 'project/var/logs']
 
 # Name used by the Web Server (i.e. www-data for Apache)
 set :file_permissions_users, ['www-data']
@@ -61,17 +61,15 @@ SSHKit.config.command_map[:symfony] = "/opt/php-7.0.1/bin/php project/bin/consol
 SSHKit.config.command_map[:php] = "/opt/php-7.0.1/bin/php"
 
 after 'deploy:starting', 'composer:install_executable'
-after 'deploy:updated', 'symfony:assets:install'
+after 'deploy:updated', 'deploy:set_permissions:acl'
+after 'deploy:updated', 'symfony:assets:install' 
 after 'deploy:updated', 'deploy:migrate'
 
 namespace :deploy do
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
+         execute :rake, 'cache:clear'
     end
   end
 
@@ -82,7 +80,8 @@ namespace :deploy do
   task :migrate do
     on roles(:db) do
       invoke 'symfony:console', 'doctrine:migrations:migrate  --no-interaction; true'
-      #symfony_console 'doctrine:migrations:migrate', '--no-interaction'
+      invoke 'symfony:console', 'assetic:dump'
+      invoke 'symfony:console', 'cache:clear'
     end
   end
 end
