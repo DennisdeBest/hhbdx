@@ -4,6 +4,6 @@ easy_admin:
             class: AppBundle\Entity\Boisson
             label: 'Boisson'
             form:
-                fields: ['prixNormal', 'prixHh']
+                fields: ['name', 'prixNormal', 'prixHH']
             list:
                 actions: ['delete', 'show', '-edit']

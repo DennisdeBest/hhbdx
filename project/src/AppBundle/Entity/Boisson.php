@@ -100,4 +100,28 @@ class Boisson
     {
         return $this->prixHH;
     }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Boisson
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
 }
