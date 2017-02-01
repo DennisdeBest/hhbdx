@@ -2,11 +2,14 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Bar;
 use AppBundle\Entity\Contact;
+use AppBundle\Entity\TypeBar;
 use AppBundle\Form\ContactType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
@@ -20,44 +23,76 @@ class DefaultController extends Controller
         return $this->render('AppBundle::about.html.twig');
     }
 
-    public function contactAction(Request $request) {
+    public function contactAction(Request $request)
+    {
         $contact = new Contact();
         $form = $this->createForm(ContactType::class, $contact);
 
-        if($request->isMethod('POST') && $form->handleRequest($request)->isValid()){
+        if ($request->isMethod('POST') && $form->handleRequest($request)->isValid()) {
             $contact->setSenddate(new \DateTime());
             $em = $this->getDoctrine()->getManager();
             $em->persist($contact);
             $em->flush();
 
             $email = \Swift_Message::newInstance()
-                ->setSubject("Message From : ".$contact->getName())
+                ->setSubject("Message From : " . $contact->getName())
                 ->setFrom($contact->getEmail())
                 ->setTo('southwestfrancepools@gmail.com')
                 ->setContentType("text/html")
                 ->setBody(
                     $this->renderView(
                         'AppBundle:email:contact.html.twig',
-                        array('contact'=>$contact)
+                        array('contact' => $contact)
                     )
                 );
 
-            if(!$this->get('mailer')->send($email)){
+            if (!$this->get('mailer')->send($email)) {
                 $this->addFlash("email_fail", "Failed to send email message");
-            }
-            else {
+            } else {
                 $this->addFlash("email_success", "Email sent !");
             }
         }
 
-        return $this->render('AppBundle::contact.html.twig', array('form' =>$form->createView()));
+        return $this->render('AppBundle::contact.html.twig', array('form' => $form->createView()));
     }
 
-    public function showcaseAction() {
-        $repo = $this->getDoctrine()->getRepository('AppBundle:Showcase');
-        $showcases = $repo->findAll();
-        return $this->render('AppBundle::showcase.html.twig', array('showcases'=>$showcases));
-    }
+    public function addBarTypeAction(Request $request)
+    {
 
+        $em = $this->getDoctrine()->getManager();
+
+        $newRole = new Bar();
+
+        $roleForm = $this->createForm(
+            new TypeBar(),
+            $newRole,
+            array('action' => $this->generateUrl('new_bar_type'),
+                'method' => 'POST')
+        );
+
+        if ($request->isMethod('POST')) {
+            $roleForm->handleRequest($request);
+
+            if ($roleForm->isValid()) {
+                $roleData = $roleForm->getData();
+
+                $em->persist($roleData);
+                $em->flush();
+
+                $response = new Response(json_encode([
+                    'success' => true,
+                    'id' => $roleData->getId(),
+                    'name' => $roleData->getName()
+                ]));
+                $response->headers->set('Content-Type', 'application/json');
+
+                return $response;
+            }
+        }
+
+        return $this->render("AppBundle:Contact:contact_role.html.twig", array(
+            'form_role' => $roleForm->createView()
+        ));
+    }
 
 }

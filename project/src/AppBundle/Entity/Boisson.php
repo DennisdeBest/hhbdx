@@ -22,6 +22,13 @@ class Boisson
     private $id;
 
     /**
+     * @var string
+     *
+     * @ORM\column(name="name", type="string")
+     */
+    private $name;
+
+    /**
      * @var float
      *
      * @ORM\Column(name="prixNormal", type="float")

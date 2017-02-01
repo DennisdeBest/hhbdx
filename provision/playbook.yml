@@ -18,4 +18,5 @@
         - servername: "hhbdx.local"
           documentroot: "/var/www/hhbdx.local/web"
     - common
+    - symfony3
 ...

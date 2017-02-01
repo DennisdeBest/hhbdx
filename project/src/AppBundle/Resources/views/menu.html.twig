@@ -1,13 +1,9 @@
 
-<h1 class="title">{% image '@AppBundle/Resources/public/img/logo.png' %}
-    <img class="logo" src="{{ asset_url }}" />
-    {% endimage %}South West France Pools</h1>
+<h1 class="title">Happy hour Bordeaux</h1>
 <hr>
 {% set route = app.request.attributes.get('_route') %}
 <ul>
     <li {{ route == 'homepage' ? 'class="active"' }}><a href="{{ path('homepage') }}">Home</a></li>
-    <li {{ route == 'about' ? 'class="active"' }}><a href="{{ path('about') }}">About</a></li>
-    <li {{ route == 'showcase' ? 'class="active"' }}><a href="{{ path('showcase') }}">Showcase</a></li>
     <li {{ route == 'contact' ? 'class="active"' }}><a href="{{ path('contact') }}">Contact</a></li>
 </ul>
 <hr>

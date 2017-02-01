@@ -80,7 +80,7 @@ class Bar
      * @ORM\Column(nullable=true)
      * @ORM\ManyToMany(targetEntity="Boisson")
      */
-    private $boissons;
+    private $boisson;
 
     /**
      * @var Creneauhh
@@ -316,7 +316,7 @@ class Bar
      *
      * @return \Doctrine\Common\Collections\Collection
      */
-    public function getBoissons()
+    public function getBoisson()
     {
         return $this->boissons;
     }
