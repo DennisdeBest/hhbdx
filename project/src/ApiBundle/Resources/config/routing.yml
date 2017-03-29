@@ -1,3 +1,39 @@
-api_homepage:
-    path:     /
-    defaults: { _controller: ApiBundle:Default:index }
+register:
+    path: /register
+    methods: [POST]
+    defaults: { _controller: ApiBundle:Registration:register}
+
+login:
+    path: /login
+    methods: [POST]
+    defaults: { _controller: ApiBundle:Login:login}
+
+auth:
+    path: /auth
+    methods: [POST]
+    defaults: { _controller: ApiBundle:Authentication:Authenticate}
+
+user_promote:
+    path: /user/promote
+    methods: [POST]
+    defaults: { _controller: ApiBundle:ApiUser:promote}
+
+user_demote:
+    path: /user/demote
+    methods: [POST]
+    defaults: { _controller: ApiBundle:ApiUser:demote}
+
+getUsers:
+    path: /getUsers
+    methods: [GET]
+    defaults: { _controller: ApiBundle:Authentication:getUsers}
+
+forms:
+    path: /form
+    methods: [POST]
+    defaults: { _controller: ApiBundle:ApiUser:saveForm}
+
+getForms:
+    path: /getForms
+    methods: [GET]
+    defaults: {_controller: ApiBundle:ApiUser:getForms}

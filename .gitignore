@@ -59,3 +59,5 @@
 /project/tests/
 
 *.php~
+
+*.pem

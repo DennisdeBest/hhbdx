@@ -12,7 +12,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 class ApiUserController extends BaseController
 {
-    use \AppBundle\Helper\ControllerHelper;
+    use \ApiBundle\Helper\ControllerHelper;
 
     /**
      * @param Request

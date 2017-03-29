@@ -9,7 +9,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 class AuthenticationController extends BaseController
 {
-    use \AppBundle\Helper\ControllerHelper;
+    use \ApiBundle\Helper\ControllerHelper;
 
 
     /**

@@ -1,5 +1,5 @@
 <?php
-namespace AppBundle\Helper;
+namespace ApiBundle\Helper;
 
 use JMS\Serializer\DeserializationContext;
 use Symfony\Component\HttpFoundation\Response;

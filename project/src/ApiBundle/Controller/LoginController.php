@@ -13,7 +13,7 @@ use Symfony\Component\Security\Core\Exception\BadCredentialsException;
 
 class LoginController extends Controller
 {
-    use \AppBundle\Helper\ControllerHelper;
+    use \ApiBundle\Helper\ControllerHelper;
 
     public function loginAction(Request $request)
     {
