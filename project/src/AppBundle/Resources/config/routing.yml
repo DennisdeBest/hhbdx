@@ -11,6 +11,7 @@ contact:
     defaults: { _controller: AppBundle:Default:contact }
 
 
-showcase:
-    path:     /showcase
-    defaults: { _controller: AppBundle:Default:showcase }
+add_bar:
+    path:     /addBar
+    defaults: { _controller: AppBundle:Default:addBar }
+

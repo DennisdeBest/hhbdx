@@ -1,0 +1,53 @@
+{% extends 'AppBundle::page.html.twig' %}
+{% block title %}
+    {{ parent() }}Add Bar
+{% endblock %}
+
+{% block content %}
+    {% stylesheets filter='cssrewrite'
+    'bundles/app/css/chosen.min.css'
+    'bundles/app/css/style.css'
+    'bundles/app/css/prism.css'
+    %}
+     {% endstylesheets %}
+    {% for flashmessage in app.session.flashBag.get('email_error') %}
+        <div class="alert alert-danger">
+            {{ flashmessage }}
+        </div>
+    {% endfor %}
+    {% for flashmessage in app.session.flashBag.get('email_success') %}
+        <div class="alert alert-success">
+            {{ flashmessage }}
+        </div>
+    {% endfor %}
+    <h1>Add Bar</h1>
+    <div id="contactForm">
+        {% form_theme form 'bootstrap_3_layout.html.twig' %}
+        {{ form_start(form) }}
+        {# render the task's only field: description #}
+
+        <h3>Tags</h3>
+        <ul class="tags">
+            {# iterate over each existing tag and render its only field: name #}
+            {% for typeBar in form.typeBar %}
+                <li>{{ form_row(typeBar.nom) }}</li>
+            {% endfor %}
+        </ul>
+        {{ form_end(form) }}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="../public/js/chosen.jquery.js" type="text/javascript"></script>
+    <script src="../public/js/prism.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      var config = {
+        '.chosen-select'           : {},
+        '.chosen-select-deselect'  : {allow_single_deselect:true},
+        '.chosen-select-no-single' : {disable_search_threshold:10},
+        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select-width'     : {width:"95%"}
+      }
+      for (var selector in config) {
+        $(selector).chosen(config[selector]);
+      }
+    </script>
+{% endblock %}

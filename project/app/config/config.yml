@@ -68,6 +68,9 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: AppBundle\Entity\User
+    from_email:
+        address:        app@yoursite.com
+        sender_name:    Your App Admin
 
 assetic:
     debug:          '%kernel.debug%'

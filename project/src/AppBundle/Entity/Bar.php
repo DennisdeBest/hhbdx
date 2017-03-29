@@ -5,6 +5,7 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Bar
@@ -69,25 +70,27 @@ class Bar
     private $nom;
 
     /**
-     *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\TypeBar")
      * @ORM\Column(nullable=true)
      */
-    private $type;
+    private $typeBar;
 
     /**
-     * @var Boisson[]ArrayCollection
      * @ORM\Column(nullable=true)
      * @ORM\ManyToMany(targetEntity="Boisson")
      */
     private $boisson;
 
     /**
-     * @var Creneauhh
      * @ORM\Column(nullable=true)
      * @ORM\ManyToOne(targetEntity="Creneauhh", cascade={"persist"})
      */
     private $creneauhh;
+
+    public function __construct()
+    {
+        $this->typeBar = new ArrayCollection();
+    }
 
 
     /**
@@ -255,37 +258,6 @@ class Bar
     {
         return $this->nom;
     }
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->boissons = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-
-    /**
-     * Set type
-     *
-     * @param \AppBundle\Entity\TypeBar $type
-     *
-     * @return Bar
-     */
-    public function setType(\AppBundle\Entity\TypeBar $type = null)
-    {
-        $this->type = $type;
-
-        return $this;
-    }
-
-    /**
-     * Get type
-     *
-     * @return \AppBundle\Entity\TypeBar
-     */
-    public function getType()
-    {
-        return $this->type;
-    }
 
     /**
      * Add boisson
@@ -296,7 +268,7 @@ class Bar
      */
     public function addBoisson(\AppBundle\Entity\Boisson $boisson)
     {
-        $this->boissons[] = $boisson;
+        $this->boisson[] = $boisson;
 
         return $this;
     }
@@ -308,7 +280,7 @@ class Bar
      */
     public function removeBoisson(\AppBundle\Entity\Boisson $boisson)
     {
-        $this->boissons->removeElement($boisson);
+        $this->boisson->removeElement($boisson);
     }
 
     /**
@@ -318,7 +290,7 @@ class Bar
      */
     public function getBoisson()
     {
-        return $this->boissons;
+        return $this->boisson;
     }
 
     /**
@@ -345,4 +317,42 @@ class Bar
         return $this->creneauhh;
     }
 
+
+    /**
+     * Set typeBar
+     *
+     * @param TypeBar $typeBar
+     *
+     * @return Bar
+     */
+    public function setTypeBar($typeBar)
+    {
+        $this->typeBar = $typeBar;
+
+        return $this;
+    }
+
+    /**
+     * Get typeBar
+     *
+     * @return TypeBar
+     */
+    public function getTypeBar()
+    {
+        return $this->typeBar;
+    }
+
+    /**
+     * Set boisson
+     *
+     * @param string $boisson
+     *
+     * @return Bar
+     */
+    public function setBoisson($boisson)
+    {
+        $this->boisson = $boisson;
+
+        return $this;
+    }
 }

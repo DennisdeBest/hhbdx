@@ -8,8 +8,9 @@ easy_admin:
                     - nom
                     - adresse
                     - description
-                    - { property: 'type', type: 'collection', type_options: { entry_type: 'AppBundle\Form\TypeBarType'} }
-                    - { property: 'creneauhh' , type: 'AppBundle\Form\CreneauhhType'}
+                    #- { property: 'typeBar', type: 'easyadmin_autocomplete'}
+                    #- { property: 'typeBar', type: 'collection', type_options: { entry_type: 'AppBundle\Form\TypeBarType' }}
+                    #- { property: 'creneauhh' , type: 'collection', type_options:{ entry_type: 'AppBundle\Form\CreneauhhType'}}
                     - { property: 'boisson', type: 'collection', type_options: { entry_type: 'AppBundle\Form\BoissonType'}}
                     - { property: 'imageFile', type: 'file'}
                     - { property: 'imageFile2', type: 'file'}

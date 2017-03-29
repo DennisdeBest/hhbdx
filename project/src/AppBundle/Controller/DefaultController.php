@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\Entity\Bar;
 use AppBundle\Entity\Contact;
 use AppBundle\Entity\TypeBar;
+use AppBundle\Form\BarType;
 use AppBundle\Form\ContactType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -93,6 +94,33 @@ class DefaultController extends Controller
         return $this->render("AppBundle:Contact:contact_role.html.twig", array(
             'form_role' => $roleForm->createView()
         ));
+    }
+
+    public function addBarAction(Request $request)
+    {
+        $bar = new Bar();
+        $form = $this->get('form.factory')->create(BarType::class, $bar);
+
+        if ($request->isMethod('POST') && $form->handleRequest($request)->isValid()) {
+
+            $em = $this->getDoctrine()->getManager();
+
+            $em->persist($bar);
+
+            $em->flush();
+
+            $request->getSession()->getFlashBag()->add('notice', 'Bar bien enregistrée.');
+
+            return $this->redirectToRoute('add_bar');
+
+        }
+        $view = $form->createView();
+
+        return $this->render('AppBundle::addBar.html.twig', array(
+            'form' => $form->createView(),
+        ));
+
+
     }
 
 }
