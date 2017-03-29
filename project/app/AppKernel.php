@@ -23,6 +23,12 @@ class AppKernel extends Kernel
             new \Ivory\CKEditorBundle\IvoryCKEditorBundle(),
             new \JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new ApiBundle\ApiBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new \FOS\RestBundle\FOSRestBundle(),
+            new Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle(),
+            new \Nelmio\CorsBundle\NelmioCorsBundle(),
+
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
